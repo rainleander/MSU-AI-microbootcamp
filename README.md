@@ -1,9 +1,9 @@
 # MSU AI MicroBootCamp Notes and Projects
 ## Module 0: Getting Started
 ### Getting Started
-0.1.1: Welcome
-0.1.2: Course Tools
-0.1.3: Google Colab
+0.1.1: Welcome  
+0.1.2: Course Tools  
+0.1.3: Google Colab  
 0.1.4: Local Installations
 
 ### Navigating the Course
