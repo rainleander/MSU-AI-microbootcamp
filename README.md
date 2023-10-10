@@ -121,6 +121,25 @@
   - Common applications include differentiating between spam and genuine emails, language translation, social media sentiment analysis, and powering chatbots/virtual agents.  
 
 1.3.7: Emerging Technologies  
+- **AI's Impact:** Artificial intelligence has significantly altered our lives and is evolving at a pace that's challenging to predict for the upcoming decades.
+
+- **Generative AI:**
+  - A rapidly progressing field within AI.
+  - Beyond text generation, transformer technology in Generative AI can produce images (e.g., Stable Diffusion) and music.
+  - Models are trained on data like image and audio files and then can create new content based on this data. With more data and time, these models increase in accuracy and efficiency.
+
+- **Natural Human-Computer Interaction:**
+  - AI is advancing towards enabling computers to engage more organically with humans in the real world.
+  - Emergent technologies enable computers to visually perceive the world using advanced cameras and detect tactile information through sensors.
+  - This facilitates more innovative interactions between humans and computers.
+  - Early applications include autonomous vehicles, robots, and similar devices, with rapid ongoing development in this area.
+
+- **Ethical and Regulatory Implications:**
+  - The swift progress of AI technologies presents unforeseen ethical issues and challenges for regulatory frameworks.
+  - These challenges were hard to anticipate even a short while ago, emphasizing the importance of ethical considerations in AI development.
+
+- **Course Perspective:** Encouragement for learners to consistently ponder the potential and challenges AI brings to individual lives and broader society throughout the course.  
+
 1.3.8: Recap and Knowledge Check  
 1.3.9: References  
 
