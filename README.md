@@ -7,26 +7,26 @@
 0.1.4: Local Installations
 
 ### Navigating the Course
-0.2.1: Course Overview
-0.2.2: Course Structure
-0.2.3: Submitting Assignments
-0.2.4: Grade Notifications
-0.2.5: Your Support Team
+0.2.1: Course Overview  
+0.2.2: Course Structure  
+0.2.3: Submitting Assignments  
+0.2.4: Grade Notifications  
+0.2.5: Your Support Team  
 
 ## Module 1: Introduction to AI
 ### Introduction to Artificial Intelligence
-1.1.1: Welcome to the AI Micro Boot Camp!
-1.1.2: What is AI?
-1.1.3: Narrow AI vs Artificial General Intelligence
-1.1.4: Ethics and AI
-1.1.5: Recap and Knowledge Check
+1.1.1: Welcome to the AI Micro Boot Camp!  
+1.1.2: What is AI?  
+1.1.3: Narrow AI vs Artificial General Intelligence  
+1.1.4: Ethics and AI  
+1.1.5: Recap and Knowledge Check  
 
 ### The Impact of Machine Learning
-1.2.1: Finance
-1.2.2: Business
-1.2.3: Medicine
-1.2.4: Daily Life
-1.2.5: Recap and Knowledge Check
+1.2.1: Finance  
+1.2.2: Business  
+1.2.3: Medicine  
+1.2.4: Daily Life  
+1.2.5: Recap and Knowledge Check  
 
 ### Machine Learning Models and Methods
 1.3.1: Overview of Machine Learning Models
