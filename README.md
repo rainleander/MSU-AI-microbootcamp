@@ -141,7 +141,110 @@
 - **Course Perspective:** Encouragement for learners to consistently ponder the potential and challenges AI brings to individual lives and broader society throughout the course.  
 
 1.3.8: Recap and Knowledge Check  
+- **Course Overview:** This lesson provides a foundational understanding of various machine learning models featured in the course.
+
+- **Types of Machine Learning:**
+  - **Unsupervised Learning:** Uses unlabeled data for analysis and clustering.
+  - **Supervised Learning:** Leverages labeled data for training and predictions.
+
+- **Machine Learning Optimization:** 
+  - An essential process to enhance machine learning model performance.
+  - Involves tweaking both parameters and hyperparameters.
+
+- **Neural Networks:** 
+  - Algorithms inspired by the structure and function of the human brain.
+  - **Deep Learning:** A subtype of neural networks consisting of three or more layers, enhancing efficiency and capability.
+
+- **Computers vs. Humans:**
+  - Distinct differences exist in data comprehension between computers (binary code) and humans.
+  - **Natural Language Processing (NLP):** A tool to reconcile these differences, enabling more intuitive human-computer interaction.
+
+- **Future Learning:** This lesson is a broad introduction, with more in-depth exploration and hands-on experiences planned for subsequent course sections.  
+
 1.3.9: References  
+AI.NL. 2022. Narrow AI vs Artificial General Intelligence – the key difference and future of AI. Available: https://www.ai.nl/knowledge-base/narrow-weak-ai-vs-artificial-general-intelligence/Links to an external site. [2023, March 29]
+
+Azure Microsoft. n.d. Artificial intelligence (AI) vs. machine learning (ML). Available: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/artificial-intelligence-vs-machine-learning/#introductionLinks to an external site. [2023, March 29].
+
+Baduge, S.T., Thilakarathna, S., Perera, J.S., Arashpour, M., Sharafi, P., Teodosio, B., & Shringi, A. 2022. Artificial intelligence and smart vision for building and construction 4.0: Machine and deep learning methods and applications. Automation in Construction. Available: https://doi.org/10.1016/j.autcon.2022.104440Links to an external site..
+
+Bailey. J. 2022. The Ethical and Legal Challenges of GitHub Copilot. Available: https://www.plagiarismtoday.com/2022/10/19/the-ethical-and-legal-challenges-of-github-copilot/Links to an external site. [2023, April 5].
+
+Branka. 2023. Voice search statistics - 2023. Available: https://truelist.co/blog/voice-search-statistics/Links to an external site. [2023, April 21].
+
+Brown. S. 2021. Machine learning, explained. Available: https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explainedLinks to an external site. [2023, April 6].
+
+Bohr, A. & Memarzadeh, K. 2020. The rise of artificial intelligence in healthcare applications. Artificial Intelligence in Healthcare. 25-60.
+
+Chakravarthy. S. 2020. Tokenization for natural language processing Available: https://towardsdatascience.com/tokenization-for-natural-language-processing-a179a891bad4Links to an external site. [2023, April 6].
+
+Chang. C. 2020. 3 ways AI can help solve inventory management challenges Available: https://www.ibm.com/blog/3-ways-ai-solves-inventory-management-challenges/Links to an external site. [2023, April 5].
+
+Finin. T. & Joshi. K.P. 2017. Teaching machines to understand – and summarize – text. Available: https://theconversation.com/teaching-machines-to-understand-and-summarize-text-78236Links to an external site. [2023, April 6].
+
+Forbes. 2023. Artificial intelligence's new role in medicine, finance and other iIndustries - how computer learning is changing every corner of the market Available: https://www.forbes.com/sites/qai/2023/02/02/artificial-intelligences-new-role-in-medicine-finance-and-other-industrieshow-computer-learning-is-changing-every-corner-of-the-market/?sh=604580392e68Links to an external site. [2023, April 5].
+
+Fougner. C. 2022. ‘We can invent new biology’: Molly Gibson on the power of AI. Available: https://www.mckinsey.com/industries/life-sciences/our-insights/we-can-invent-new-biology-molly-gibson-on-the-power-of-aiLinks to an external site. [2023, April 5].
+
+Huang. S. 2021. Doctor.ai, an AI-powered virtual voice assistant for health care Available: https://towardsdatascience.com/doctor-ai-an-ai-powered-virtual-voice-assistant-for-health-care-8c09af65aabbLinks to an external site. [2023, April 5].
+
+IBM (n.d.a). What is machine learning?. Available: https://www.ibm.com/topics/machine-learningLinks to an external site. [2023, April 6].
+
+IBM. (n.d) What is artificial intelligence in medicine?. Available: https://www.ibm.com/topics/artificial-intelligence-medicineLinks to an external site. [2023, April 21].
+
+IBM. (.n.d). What is a chatbot? Available: https://www.ibm.com/topics/chatbotsLinks to an external site. [2023, April 5].
+
+IBM. (n.d). What is natural language processing (NLP)?. Available: https://www.ibm.com/topics/natural-language-processingLinks to an external site. [2023, April 6].
+
+Joby. A. 2020. Narrow AI: not as weak as it sounds. Available: https://www.g2.com/articles/narrow-aiLinks to an external site. [2023, March 29]
+
+Le, K. 2022. ‘Hi, can I help you?’ — How chatbots are changing customer service. Available: https://www.salesforce.com/blog/what-is-a-chatbot/Links to an external site. [2023, April 5].
+
+Lee. A. 2023. What are large language models used for? Available: https://blogs.nvidia.com/blog/2023/01/26/what-are-large-language-models-used-for/Links to an external site. [2023, April 6].
+
+Mack. J.L. 2022. Wealth managers embrace AI, machine learning faster than other financial services firms. Available: https://www.financial-planning.com/list/wealth-managers-embrace-ai-machine-learning-faster-than-other-financial-services-firmsLinks to an external site. [2023, April 5].
+
+McCain, A. 2023. *25+ incredible machine learning statistics [2023]: key facts about the future of technology. Available: https://www.zippia.com/advice/machine-learning-statistics/Links to an external site. [2023, April 21].
+
+Merritt. R. 2022. What is a transformer model? Available: https://blogs.nvidia.com/blog/2022/03/25/what-is-a-transformer-model/Links to an external site. [2023, April 5].
+
+Microsoft. (n.d). How medtech helps accelerate drug discovery. Available: https://www.microsoft.com/en-us/industry/healthcare/resources/pharma-medtech-drug-discoveryLinks to an external site. [2023, April 5].
+
+Mollman. S. 2023. OpenAI CEO Sam Altman warns that other A.I. developers working on ChatGPT-like tools won’t put on safety limits—and the clock is ticking. Available: https://fortune.com/2023/03/18/openai-ceo-sam-altman-warns-that-other-ai-developers-working-on-chatgpt-like-tools-wont-put-on-safety-limits-and-clock-is-ticking/Links to an external site. [2023, March 29].
+
+NIHCM. 2021. Racial bias in health care artificial intelligence. Available: https://nihcm.org/publications/artificial-intelligences-racial-bias-in-health-careLinks to an external site. [2023, April 5].
+
+NVIDA. n.d. Improving product quality with AI-based video analytics solution overview. Available: https://www.hpe.com/psnow/doc/a00119250enwLinks to an external site. [2023, April 5].
+
+Rizzoli, A. 2023. 7 Out-of-the-box applications of AI in manufacturing. Available: https://www.v7labs.com/blog/ai-in-manufacturingLinks to an external site. [2023, April 5].
+
+Real Finance. 2019. *Algo trading dominates 80% of stock market. Available: https://seekingalpha.com/article/4230982-algo-trading-dominates-80-percent-of-stock-marketLinks to an external site. [2023, April 21].
+
+Rouse, M. 2022. Narrow artificial intelligence (Narrow AI). Available: https://www.techopedia.com/definition/32874/narrow-artificial-intelligence-narrow-aiLinks to an external site. [2023, March 29].
+
+Sanghavi, A. 2022. 30 self-driving statistics to drive you crazy. Available: https://www.g2.com/articles/self-driving-vehicle-statisticsLinks to an external site. [2023, April 21].
+
+Sodha, S. 2019. Look deeper into the Syntax API feature within Watson natural language understanding. Available: https://developer.ibm.com/articles/a-deeper-look-at-the-syntax-api-feature-within-watson-nlu/Links to an external site. [2023, April 21].
+
+Son, H. 2017. JP Morgan software does in seconds what what took lawyers 360,000 hours. Available: https://www.independent.co.uk/news/business/news/jp-morgan-software-lawyers-coin-contract-intelligence-parsing-financial-deals-seconds-legal-working-hours-360000-a7603256.htmlLinks to an external site. [2023, April 21].
+
+Techjury. 2023. 101 artificial intelligence statistics [updated for 2023]. Available: https://techjury.net/blog/ai-statistics/#grefLinks to an external site. [2023, April 21].
+
+Topol, E. 2023. Doctors, get ready for your AI assistants. Available: https://www.wired.com/story/doctors-artificial-intelligence-medicine/Links to an external site. [2023, April 5].
+
+Vacek, G. 2023. How AI is transforming genomics. Available: https://blogs.nvidia.com/blog/2023/02/24/how-ai-is-transforming-genomics/Links to an external site. [2023, April 5].
+
+Verma, P. 2022. These robots were trained on AI. They became racist and sexist. Available: https://www.washingtonpost.com/technology/2022/07/16/racist-robots-ai/Links to an external site. [2023, March 29].
+
+Vincent, J. 2022. The lawsuit that could rewrite the rules of AI copyright. Available: https://www.theverge.com/2022/11/8/23446821/microsoft-openai-github-copilot-class-action-lawsuit-ai-copyright-violation-training-dataLinks to an external site. [2023, March 29].
+
+Vincent, J. 2023. Getty Images sues AI art generator Stable Diffusion in the US for copyright infringement. Available: https://www.theverge.com/2023/2/6/23587393/ai-art-copyright-lawsuit-getty-images-stable-diffusionLinks to an external site. [2023, March 29].
+
+Visual Studio. (n.d). GitHub copilot. Available: https://marketplace.visualstudio.com/items?itemName=GitHub.copilotLinks to an external site. [2023, April 5].
+
+WEF. 2023. 4 ways artificial intelligence could transform manufacturing. Available: https://www.weforum.org/agenda/2023/01/4-ways-artificial-intelligence-manufacturing-davos2023/Links to an external site. [2023, April 5].
+
+Zakaryan, V. 2022. AI-enhanced predictive maintenance for manufacturing — What’s the point? Available: https://postindustria.com/ai-enhanced-predictive-maintenance-for-ml-manufacturing-whats-the-point/Links to an external site. [2023, April 5].  
 
 ## Module 2: Unsupervised Learning
 ### Introduction to Unsupervised Learning
