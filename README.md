@@ -2,9 +2,29 @@
 ## Module 0: Getting Started
 ### Getting Started
 0.1.1: Welcome  
+- **Real-world AI Applications:**
+  - Netflix's recommendation system.
+  - Google Maps' optimal route prediction.
+  - Alexa's rapid playlist retrieval.
+
+- **History and Progression of AI:**
+  - The Logic Theorist, the first AI programming language, developed in the 1950s.
+  - Evolution over decades with advancements like Large Language Models (LLMs) and Language Generation software such as ChatGPT.
+  - AI's extensive impact on diverse sectors like entertainment, finance, medicine, and daily life.
+
+- **Business Impact of AI:**
+  - AI boosts productivity and efficiency by 40%.
+  - A projected growth in Global GDP by $15.7 trillion due to AI by 2030 (Techjury, 2023).
+
+- **Course Content and Objectives:**
+  - A deep dive into machine learning as a core AI application.
+  - Merges conceptual knowledge with technical proficiency.
+  - Practical hands-on guidance, ensuring students develop AI models independently.
+  - A glimpse into recent AI breakthroughs and potential future applications.  
+
 0.1.2: Course Tools  
 0.1.3: Google Colab  
-0.1.4: Local Installations
+0.1.4: Local Installations  
 
 ### Navigating the Course
 0.2.1: Course Overview  
@@ -17,9 +37,125 @@
 ### Introduction to Artificial Intelligence
 1.1.1: Welcome to the AI Micro Boot Camp!  
 1.1.2: What is AI?  
+- **Introduction to AI:**
+  - AI is a branch of computer science that imitates human intelligence.
+  - AI systems ingest vast amounts of data, learn from it, and leverage the acquired knowledge to forecast future data and tackle intricate issues.
+
+- **Understanding Machine Learning:**
+  - A subfield of AI that allows computer systems to learn from data and make informed decisions or predictions without human intervention.
+  - Traditional programming needs explicit rules, whereas machine learning predicts using data-driven models.
+  - Examples include weather forecasting, where past data aids in crafting models for future predictions.
+  - Over time, machine learning models can self-improve by identifying and discarding outlier data.
+
+- **Categories of Machine Learning:**
+  - **Supervised Learning:** Predominantly utilizes labeled data.
+  - **Unsupervised Learning:** The system independently categorizes data.
+  - **Reinforcement Learning:** Learning occurs via a trial-and-error approach.
+  - This course will concentrate on supervised and unsupervised learning.
+
+- **Industry Insights:**
+  - The machine learning sector will be valued at $209.9 billion by 2029 (McCain, 2023).
+
+- **AI vs. Machine Learning:**
+  - AI focuses on replicating human intelligence for problem-solving, while machine learning is centered on data-driven predictions and decision-making.
+  - AI equips algorithms to mimic human-like behavior, whereas machine learning empowers algorithms to generate their intelligence.
+
+- **Neural Networks and Deep Learning:**
+  - Neural networks, inspired by the human brain's structure, help computers emulate human cognition.
+  - Like brain neurons, these networks are crucial for data transmission and signal relay in machine learning.
+  - Using neural networks, machine learning software processes data and crafts algorithms that enhance performance over time.
+  - Deep learning, a machine learning subset, heavily relies on these neural networks.  
+
 1.1.3: Narrow AI vs Artificial General Intelligence  
+- **Narrow AI (ANI or Weak AI):**
+  - Focuses on executing specific tasks and making decisions based on its training data.
+  - Describing it as "weak" might be misleading, as ANI can solve intricate problems efficiently.
+  - All present-day AI applications, such as chatbots, recommendation systems, facial recognition, self-driving cars, and voice assistants like Siri and Alexa, are considered narrow AI.
+  - **Insight:** Voice assistants are gaining traction; around 35% of Americans utilize them daily for news and weather updates (Branka, 2023).
+
+- **Artificial General Intelligence (AGI or Strong AI):**
+  - Represents AI that has self-awareness and can match or surpass human intelligence.
+  - AGI is more of a fictional concept seen in movies like The Terminator, Her, WALL-E, and 2001: A Space Odyssey.
+  - Potential AGI would combine machine learning, artificial neural networks, NLP, deep learning, and technologies not yet developed.
+  - It could possibly possess human-like attributes like imagination, deception, and inquisitiveness.
+  - Some existing narrow AI tools, such as ChatGPT, simulate AGI characteristics by creating human-like interactions.
+  - However, these powerful tools are not sentient and differ from human cognition.
+
+- **Comparison of ANI and AGI:**
+  - The provided table (not visible here) elaborates on the distinctions between narrow and general AI.
+
+- **Artificial Super Intelligence (ASI):**
+  - Represents the zenith of AI, outperforming human capabilities.
+  - Renowned experts, including Elon Musk and Stephen Hawking, perceive AGI and ASI as potential threats to human existence.
+
+- **Ethical Considerations:**
+  - Adopting AI, especially advanced forms, poses ethical dilemmas and potential societal harm.
+  - A human-centric approach is essential during AI model development to ensure conscious and responsible usage.
+  - The subsequent section will address the ethics associated with AI and strategies to avert potential challenges.  
+
 1.1.4: Ethics and AI  
+**Data Ethics and Big Data**
+
+Data ethics examines the ethical implications of data usage, especially big data. The core idea revolves around ethical principles guiding how data is used. 
+
+- **Why is Data Ethics Important?** As data grows in volume and complexity, its misuse could harm individuals. Understanding how to manage this data ethically is crucial. Awareness of potential ethical pitfalls can lead to positive change through technology.
+
+**Main Concerns with AI**
+
+1. **Consent**: Consent is a cornerstone of ethical data usage. An infamous case involving Clearview AI demonstrated the dangers of neglecting consent. Clearview AI used personal images without the individual's permission, leading to a hefty fine. The takeaway? Consent is paramount.
+
+2. **Algorithmic Bias**: At its core, an algorithm is a step-by-step process for accomplishing a task. Algorithms can be simple or complex and are often used to process data. Bias refers to unequal treatment. Combine the two, and you have "algorithmic bias" - when systems treat groups or individuals unequally.
+
+   - *Types of Algorithms* (as listed by Nicholas Diakopoulos):
+     - Prioritization
+     - Classification
+     - Association
+     - Filtering
+
+Bias in algorithms can accumulate quickly, especially when the system operates without much human intervention. 
+
+**Algorithmic Bias in Action: Gender Shades**
+
+- **The Study**: Researchers at MIT tested facial recognition software by IBM, Microsoft, and Face++.
+- **Findings**: The software performed differently based on skin shade and gender, often misidentifying darker-skinned females.
+- **Implications**: Even if a tool is largely accurate, it can still have biases that disproportionately affect certain groups.
+
+**Understanding Causes of Algorithmic Bias**
+
+1. **Background Disparities**: If developers have a homogenous background, their unconscious biases might manifest in the technologies they develop.
+2. **Biased Training Data**: An algorithm learns from the data. If that data has built-in biases, so will the algorithm.
+
+**Addressing Algorithmic Bias**
+
+1. **Audits**: Both internal and external audits can identify biases. The Gender Shades study is an example of an external audit.
+2. **Transparency**: Being open about how algorithms work and their data sources can aid in accountability. However, intellectual property and privacy concerns may limit this.
+3. **Contestability**: Offering users the chance to contest or disagree with algorithmic results.
+
+**Checklists for Addressing Algorithmic Bias**
+
+- *Existing Systems*:
+  1. Understand its workings and historical data biases.
+  2. Compare with similar systems.
+  3. Audit for varying results based on input.
+  4. Ensure contestability.
+
+- *Systems in Development*:
+  1. Ensure developers understand the diverse groups the system impacts.
+  2. Examine training and testing data for representation biases.
+  3. Maintain clear documentation.
+  4. Plan for internal audits and third-party testing.
+
+Ethical considerations are paramount in the age of big data and AI. By understanding the potential pitfalls and actively working to mitigate them, we can ensure that these technologies benefit all members of society.  
+
 1.1.5: Recap and Knowledge Check  
+- Artificial intelligence (AI) is a branch of computer science that aims to replicate human intelligence in machines.
+- Machine learning, a subset of AI, allows algorithms to learn from data and make decisions or predictions without specific programmer instructions.
+- These technologies (AI and machine learning) significantly impact our daily lives and the world at large.
+- There are distinct differences between AI and machine learning, yet they are interrelated.
+- AI can be categorized as narrow AI (specialized in one task) or artificial general intelligence (capable of any intellectual task a human can do).
+- There's an ongoing debate about the feasibility and desirability of achieving artificial superintelligence (an intelligence surpassing human capabilities).
+- Ethical concerns in AI include issues like algorithmic bias.
+- It's crucial to employ strategies to identify and reduce bias when developing AI systems.  
 
 ### The Impact of Machine Learning
 1.2.1: Finance  
@@ -105,7 +241,7 @@
 
 - **Natural Language Processing (NLP):**
   - Combines human linguistics rules with machine learning, particularly deep learning models.
-  - Aims to not only translate but comprehend the essence behind words, recognizing intention, sentiment, ambiguities, emotions, and parts of speech.
+  - Aims to translate and comprehend the essence behind words, recognizing intention, sentiment, ambiguities, emotions, and parts of speech.
   - Can convert spoken language into textual data.
 
 - **Large Language Models:**
