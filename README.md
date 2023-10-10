@@ -97,6 +97,29 @@
 - One prominent application for neural networks is natural language processing.  
 
 1.3.6: Natural Language Processing (NLP) and Transformers  
+- **Binary Data Representation:** Computers store and understand data in zeros and ones, termed binary code. This method represents various types of content, including text, sound, images, and video. To humans, binary code is typically indecipherable.
+  
+- **Human-Machine Communication:** Humans and machines have distinct ways of understanding data, necessitating the creation of methods for both to communicate effectively using a mutual "language."
+
+- **Role of AI and ML:** AI technologies, combined with machine learning algorithms, allow computers to interpret and respond to written and spoken language in a human-like manner.
+
+- **Natural Language Processing (NLP):**
+  - Combines human linguistics rules with machine learning, particularly deep learning models.
+  - Aims to not only translate but comprehend the essence behind words, recognizing intention, sentiment, ambiguities, emotions, and parts of speech.
+  - Can convert spoken language into textual data.
+
+- **Large Language Models:**
+  - NVIDIA defines them as deep learning algorithms capable of recognizing, summarizing, translating, predicting, and generating text. They leverage insights from extensive datasets.
+  
+- **Transformer Models:**
+  - Have been touched upon but will be elaborated on later in the course.
+  - Defined as a neural network that discerns context and meaning by tracking relations in sequential data (e.g., words in a sentence).
+  - Involves inputting text/spoken words into the algorithm, which then undertakes tokenization (breaking down into individual words/phrases). The algorithm subsequently classifies, labels, and uses statistical training to interpret the probable meaning of the data.
+  
+- **Growing Popularity of NLP:**
+  - The rise in the usage of pre-trained models contributes to their growing popularity, as they minimize computational expenses and facilitate the implementation of advanced models.
+  - Common applications include differentiating between spam and genuine emails, language translation, social media sentiment analysis, and powering chatbots/virtual agents.  
+
 1.3.7: Emerging Technologies  
 1.3.8: Recap and Knowledge Check  
 1.3.9: References  
