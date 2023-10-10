@@ -2,6 +2,20 @@
 ## Module 0: Getting Started
 ### Getting Started
 0.1.1: Welcome  
+0.1.2: Course Tools  
+0.1.3: Google Colab  
+0.1.4: Local Installations  
+
+### Navigating the Course
+0.2.1: Course Overview  
+0.2.2: Course Structure  
+0.2.3: Submitting Assignments  
+0.2.4: Grade Notifications  
+0.2.5: Your Support Team  
+
+## Module 1: Introduction to AI
+### Introduction to Artificial Intelligence
+1.1.1: Welcome to the AI Micro Boot Camp!  
 - **Real-world AI Applications:**
   - Netflix's recommendation system.
   - Google Maps' optimal route prediction.
@@ -21,21 +35,6 @@
   - Merges conceptual knowledge with technical proficiency.
   - Practical hands-on guidance, ensuring students develop AI models independently.
   - A glimpse into recent AI breakthroughs and potential future applications.  
-
-0.1.2: Course Tools  
-0.1.3: Google Colab  
-0.1.4: Local Installations  
-
-### Navigating the Course
-0.2.1: Course Overview  
-0.2.2: Course Structure  
-0.2.3: Submitting Assignments  
-0.2.4: Grade Notifications  
-0.2.5: Your Support Team  
-
-## Module 1: Introduction to AI
-### Introduction to Artificial Intelligence
-1.1.1: Welcome to the AI Micro Boot Camp!  
 1.1.2: What is AI?  
 - **Introduction to AI:**
   - AI is a branch of computer science that imitates human intelligence.
