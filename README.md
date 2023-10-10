@@ -72,6 +72,30 @@
 - Key components include hyperparameter tuning, kernel selection, and grid search.
 
 1.3.5: Neural Networks and Deep Learning  
+**Neural Networks:**
+
+- Neural or artificial neural networks (ANN) are algorithms inspired by the human brain's structure and function.
+- ANNs consist of artificial neurons (or nodes) that mimic biological neurons and are interconnected, mirroring brain synapses.
+- Basic structure: layers of neurons that perform individual computations, with the results weighed and passed through layers until a final result is reached.
+- Neural networks depend on training data to develop their algorithms, refining their accuracy as more data is inputted.
+- Once trained, they quickly perform tasks on vast data sets, like classification and clustering.
+- Neural networks can discern intricate data patterns, like predicting shopping behaviors or loan default probabilities.
+- Benefits: Efficient at detecting complex data relationships and can handle messy data by learning to overlook noise.
+- Challenges:
+  - **Black box problem:** The complexity of neural network algorithms often makes them hard for humans to comprehend.
+  - **Overfitting:** The model may perform too well on training data, impairing its generalization to new data.
+- Specific model designs and optimization techniques can be applied to address these issues.  
+
+**Deep Learning:**
+
+- A specialized neural network with three or more layers, making it more efficient and accurate.
+- Unlike most machine learning models, deep learning models can detect nonlinear relationships, excelling at analyzing intricate or unstructured data (e.g., images, text, voice).
+- Neural networks weigh and transform input data into a quantified output. This data transformation process continues across layers until the final prediction.
+- The distinction between regular neural networks and deep learning is typically based on the number of hidden layers. In this context, "deep" refers to networks with more than one hidden layer.
+- Each additional neuron layer allows the modeling of intricate relationships and ideas, such as categorizing images.
+- A practical example: A neural network classifying a picture containing a cat may first identify any animal, then specific features like paws or ears, breaking down the challenge until the image's individual pixels are analyzed.
+- One prominent application for neural networks is natural language processing.  
+
 1.3.6: Natural Language Processing (NLP) and Transformers  
 1.3.7: Emerging Technologies  
 1.3.8: Recap and Knowledge Check  
