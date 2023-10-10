@@ -32,6 +32,19 @@
 1.3.1: Overview of Machine Learning Models  
 1.3.2: Unsupervised Learning  
 1.3.3: Supervised Learning  
+- Supervised learning involves "supervising" the algorithm's learning by providing it with data that has known outcomes to make accurate predictions.
+- The training cycle involves:
+  - Giving the algorithm categories.
+  - Feeding more data for better results.
+  - Assessing and optimizing the model's performance.
+- Supervised learning uses inputs of labeled data with features to predict outcomes on new unlabeled data.
+- An example includes using a dataset of high-risk vs. low-risk loans to improve a model's prediction capability.
+- A well-trained supervised learning model learns from its own errors, refining its predictions on new data.
+- Supervised learning is categorized into regression and classification algorithms.
+- Regression algorithms predict continuous variables, like predicting a person's weight based on height, age, and exercise or predicting prices in finance.
+- Classification algorithms predict discrete outcomes, like predicting voting behavior based on traits or predicting buy vs. sell in finance.
+- Despite its capabilities, supervised learning has its limitations, especially when dealing with very complex problems.
+- Current AI research aims to develop even more sophisticated algorithms, building on existing supervised and unsupervised learning techniques.
 1.3.4: Machine Learning Optimization  
 1.3.5: Neural Networks and Deep Learning  
 1.3.6: Natural Language Processing (NLP) and Transformers  
