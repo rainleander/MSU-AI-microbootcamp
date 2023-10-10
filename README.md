@@ -47,6 +47,30 @@
 - Current AI research aims to develop even more sophisticated algorithms, building on existing supervised and unsupervised learning techniques.  
 
 1.3.4: Machine Learning Optimization  
+- Machine learning optimization enhances the performance of a model by adjusting its parameters and hyperparameters.
+- The model is run on a training dataset, evaluated on a validation dataset, and adjustments are made to enhance its performance metrics.
+- Continuous evaluation of machine learning models is crucial to minimize errors.
+- Optimization refines and boosts the accuracy of machine learning models over time.  
+  
+**Metrics:**
+- Models need to be assessed for performance, not just trained.
+- **Accuracy** gives the ratio of correct predictions to total outcomes, indicating how often the model was correct.
+- **Precision or PPV** reflects the model's confidence in its positive predictions.
+- **Recall or Sensitivity** checks if the model identifies all positive instances (e.g., all fraudulent accounts).
+- **F1 score** is a combined statistic of precision and recall.  
+  
+**Imbalanced Classes:**
+- A common issue in classification is when one class size significantly surpasses the other.
+- An example is detecting fraudulent transactions in credit card operations, where non-fraudulent transactions typically outnumber fraud.
+- **Resampling** balances the class input during training to prevent bias towards the larger class.
+  - **Oversampling:** Increasing instances of the smaller class.
+  - **Undersampling:** Reducing instances of the larger class.  
+  
+**Model Tuning:**
+- Crucial for machine learning optimization.
+- Involves adjusting hyperparameters to find optimal values for the best model performance.
+- Key components include hyperparameter tuning, kernel selection, and grid search.
+
 1.3.5: Neural Networks and Deep Learning  
 1.3.6: Natural Language Processing (NLP) and Transformers  
 1.3.7: Emerging Technologies  
