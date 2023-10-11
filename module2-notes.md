@@ -10,7 +10,7 @@
   - Unsupervised learning identifies trends, relationships, and patterns (clusters) within data.
   - Its applications:
     1. Cluster/group data to discern patterns rather than predicting a class.
-    2. Transform data for intuitive analysis or for use in supervised/deep learning.
+    2. Transform data for intuitive analysis or use in supervised/deep learning.
 
 - **Practical Applications**:
   - Recommending related products based on customer views.
@@ -24,7 +24,7 @@
 - **Interplay with Other Learning Methods**:
   - Unsupervised learning can be used alongside supervised learning, deep learning, and NLP.
   - Techniques like PCA (Principal Component Analysis) can optimize predictions or classifications by reducing input variables.
-  - It can serve as a pre-training step before applying deep learning on labeled data.
+  - It can be a pre-training step before applying deep learning to labeled data.
   - In NLP, unsupervised learning can group texts/documents based on similarity.
 
 - **Learning Outcomes**:
@@ -35,9 +35,21 @@
     4. Determine the optimal cluster number using the elbow method.
     5. Convert categorical variables to numerical representations.
     6. Understand and apply PCA for dimensionality reduction.
-    7. Utilize K-means post-PCA for improved data analysis.
+    7. Utilize K-means post-PCA for improved data analysis.  
 
 2.1.2: Recap  
+- **Purpose**:
+  - Unsupervised learning is employed to cluster unlabeled datasets.
+  - It can also provide an alternative data representation for subsequent analysis and machine learning processes.
+  - Algorithms in unsupervised learning use test data to form models identifying relationships among data points.
+
+- **Challenges**:
+  1. Due to the absence of labels in the input dataset, verifying the accuracy of the output data is uncertain.
+  2. The algorithm self-generates data categories, requiring an expert to assess the relevance and significance of these categories.
+
+- **Value**:
+  - Despite its challenges, unsupervised learning proves beneficial in a diverse range of applications.  
+
 2.1.3: Getting Started  
 2.1.4: Clustering  
 2.1.5: Recap and Knowledge Check  
