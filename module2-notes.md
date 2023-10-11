@@ -68,6 +68,33 @@
   2. After installation, revert to the confirmation steps to ensure the library has been installed successfully.
 
 2.1.4: Clustering  
+[01 Clustering Demo](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files/demos/01-Clustering)  
+- **Definition**: 
+  - Clustering is the process of grouping similar data based on certain similarities.
+  - Unsupervised learning models often use clustering algorithms to group objects.
+
+- **Application Example**:
+  - Cable services can use a clustering algorithm to group customers based on their viewing habits.
+
+- **Practical Implementation**:
+  - An example in the Interactive Python Notebook file is [demos/01-Clustering/Unsolved/clusters.ipynb](https://github.com/rainleander/MSU-AI-microbootcamp/blob/main/module-2-files/demos/01-Clustering/Unsolved/clusters.ipynb) in the [module-2-files folder](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files).
+  - A synthetic dataset is generated using `make_blobs` from scikit-learn.
+    - It creates two features (X) and labels (y).
+    - `random_state=1` ensures consistent random data generation.
+
+- **Exploring the Data**:
+  - The synthetic dataset created provides an array of X values, with a (100, 2) shape indicating 100 rows and two columns.
+  - The y values are transformed to fit into a single column.
+  - Data can be visualized using Pandas plot methods.
+    - The X values (features) are named "Feature 1" and "Feature 2".
+    - y values (labels) are added as "Target".
+
+- **Visualization**:
+  - Data can be visualized in a scatter plot, showcasing the different clusters.
+  - Clusters indicate similar data points.
+  - This is called "centering," which determines classes/groups in advanced analytics.
+  - Centering also improves logistic regression models by ensuring data points have the same starting mean value.  
+  
 2.1.5: Recap and Knowledge Check  
 2.1.6: Segmenting Data: The K-Means Algorithm  
 2.1.7: Using the K-Means Algorithm for Customer Segmentation  
