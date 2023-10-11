@@ -38,6 +38,7 @@
 1.3.9: References  
 
 ## Module 2: Unsupervised Learning
+[Module 2 Notes](module2-notes.md)
 ### Introduction to Unsupervised Learning
 2.1.1: What is Unsupervised Learning?  
 2.1.2: Recap  
