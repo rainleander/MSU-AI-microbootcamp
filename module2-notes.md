@@ -1,5 +1,4 @@
 ## Module 2: Unsupervised Learning
-[Module 2 Notes](module2-notes.md)
 ### Introduction to Unsupervised Learning
 2.1.1: What is Unsupervised Learning?  
 - **Comparison with Supervised Learning**:
@@ -104,10 +103,43 @@
   - However, not all datasets come with predefined clusters.
 
 - **Role of Unsupervised Learning**:
-  - The primary role is to identify the distinct number of clusters within a dataset.
+  - The primary role is identifying a dataset's distinct number of clusters.
   - This task is achieved using the K-means algorithm, which will be discussed next.  
 
 2.1.6: Segmenting Data: The K-Means Algorithm  
+- **Challenges with Clustering**:
+  - Identifying the correct number of clusters in data is often challenging.
+  - Features distinguishing different groups might not always be evident.
+
+- **K-Means Algorithm**:
+  - It's an unsupervised learning algorithm used for clustering.
+  - Simplifies the process of objectively and automatically grouping data.
+  - K (uppercase) indicates the actual number of clusters.
+  - k (lowercase) generally refers to a cluster.
+
+- **How K-Means Works**:
+  1. The algorithm first assigns points to the nearest cluster center.
+  2. It adjusts the cluster center to the mean of data points in that cluster.
+  3. This process is iterative, refining cluster assignments with each iteration.
+  4. K-Means undergoes the following steps:
+     - Randomly selecting K clusters.
+     - Assigning each object to a similar centroid randomly.
+     - Updating cluster centers based on new means.
+     - Reassigning data points based on updated cluster centers.
+
+- **Applications & Benefits**:
+  - One significant application is **customer segmentation** in markets.
+  - Customer segmentation is crucial in financial services for better market understanding.
+  - Notable Example: **Netflix**:
+    - Uses segmentation to recommend movies based on customer preferences.
+    - Has improved product utility and reduced user cancellation rates through this.
+
+- **Using K-Means with scikit-learn**:
+  - K-Means can be implemented in Python using the **scikit-learn** library.
+  - Scikit-learn is an open-source Python library offering various supervised and unsupervised learning algorithms.
+  - Esteemed organizations like J.P. Morgan, Booking.com, Spotify, and Change.org use scikit-learn for their machine learning efforts.
+  - It is the primary tool recommended for machine learning in the provided content.  
+
 2.1.7: Using the K-Means Algorithm for Customer Segmentation  
 2.1.8: Activity: Spending Beyond Your K-Means  
 2.1.9: Recap and Knowledge Check  
