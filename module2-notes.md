@@ -51,6 +51,22 @@
   - Despite its challenges, unsupervised learning proves beneficial in a diverse range of applications.  
 
 2.1.3: Getting Started  
+- **Files**:
+  - Before starting the module, download the required files: [Module 2 Demo and Activity Files](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files).
+
+- **Installations**:
+  - The primary tools for this module are JupyterLab and the scikit-learn Python library.
+  - Scikit-learn is typically pre-installed with Anaconda.
+
+- **Confirmation Steps for scikit-learn Installation**:
+  1. Activate the Conda development environment using the command: `conda activate dev`.
+  2. To verify the installation of scikit-learn in the active environment, use: `conda list scikit-learn`.
+  3. If installed correctly, the terminal will show scikit-learn as listed.
+
+- **Installation Instructions** (if scikit-learn is missing):
+  1. Install scikit-learn using the command: `pip install -U scikit-learn`.
+  2. After installation, revert to the confirmation steps to ensure the library has been installed successfully.
+
 2.1.4: Clustering  
 2.1.5: Recap and Knowledge Check  
 2.1.6: Segmenting Data: The K-Means Algorithm  
