@@ -95,6 +95,18 @@
   - Centering also improves logistic regression models by ensuring data points have the same starting mean value.  
   
 2.1.5: Recap and Knowledge Check  
+- **Definition**:
+  - Unsupervised learning models often use clustering algorithms.
+  - The goal is to group similar objects/data points into clusters.
+
+- **Cluster Assignment**:
+  - In the given examples, clusters are pre-defined using the "clusters" parameter.
+  - However, not all datasets come with predefined clusters.
+
+- **Role of Unsupervised Learning**:
+  - The primary role is to identify the distinct number of clusters within a dataset.
+  - This task is achieved using the K-means algorithm, which will be discussed next.  
+
 2.1.6: Segmenting Data: The K-Means Algorithm  
 2.1.7: Using the K-Means Algorithm for Customer Segmentation  
 2.1.8: Activity: Spending Beyond Your K-Means  
