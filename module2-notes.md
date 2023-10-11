@@ -142,7 +142,7 @@
 
 2.1.7: [Using the K-Means Algorithm for Customer Segmentation](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files/demos/02-Kmeans)  
 - The example discusses clustering average ratings for customer service, focusing on ratings from customers who evaluated the mobile application and in-person banking services.
-- Users can follow along using a specific Jupyter notebook file (`[demos/02-Kmeans/Unsolved/services_clustering.ipynb](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files/demos/02-Kmeans/Unsolved)`).
+- Users can follow along using a specific Jupyter notebook file ([`demos/02-Kmeans/Unsolved/services_clustering.ipynb`](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files/demos/02-Kmeans/Unsolved)).
 - The data is loaded using Python's Pandas library from a CSV file named `service-ratings.csv`.
 - Initial data review shows two columns: “mobile_app_rating” and “personal_banker_rating”.
 - A scatter plot is created to visualize the spread of these ratings.
