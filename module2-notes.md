@@ -10,7 +10,7 @@
   - Unsupervised learning identifies trends, relationships, and patterns (clusters) within data.
   - Its applications:
     1. Cluster/group data to discern patterns rather than predicting a class.
-    2. Transform data for intuitive analysis or use in supervised/deep learning.
+    2. Transform data for intuitive analysis or supervised/deep learning use.
 
 - **Practical Applications**:
   - Recommending related products based on customer views.
