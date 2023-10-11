@@ -140,7 +140,21 @@
   - Esteemed organizations like J.P. Morgan, Booking.com, Spotify, and Change.org use scikit-learn for their machine learning efforts.
   - It is the primary tool recommended for machine learning in the provided content.  
 
-2.1.7: Using the K-Means Algorithm for Customer Segmentation  
+2.1.7: [Using the K-Means Algorithm for Customer Segmentation](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files/demos/02-Kmeans)  
+- The example discusses clustering average ratings for customer service, focusing on ratings from customers who evaluated the mobile application and in-person banking services.
+- Users can follow along using a specific Jupyter notebook file (`[demos/02-Kmeans/Unsolved/services_clustering.ipynb](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files/demos/02-Kmeans/Unsolved)`).
+- The data is loaded using Python's Pandas library from a CSV file named `service-ratings.csv`.
+- Initial data review shows two columns: “mobile_app_rating” and “personal_banker_rating”.
+- A scatter plot is created to visualize the spread of these ratings.
+- Data visualization reveals that clear clusters aren't immediately obvious; however, there's a noticeable congregation of points around specific values.
+- The K-means clustering algorithm from the scikit-learn library will be used to identify clusters in this data.
+- The K-means model is initialized targeting two clusters, with specific parameters for consistent outcomes (`random_state=1`) and automatic determination of starting centroids (`n_init='auto'`).
+- The model is trained (fit) using the service ratings data.
+- Predictions for cluster assignments are made for each data point.
+- The predictions are added as a new column (“customer_rating”) to a copy of the original DataFrame.
+- The predicted customer ratings create A new scatter plot, color-coded.
+- The updated scatter plot reveals two distinct clusters, indicating preferences: one group leaning towards mobile banking and the other towards in-person banking.
+  
 2.1.8: Activity: Spending Beyond Your K-Means  
 2.1.9: Recap and Knowledge Check  
 
