@@ -67,8 +67,7 @@
   1. Install scikit-learn using the command: `pip install -U scikit-learn`.
   2. After installation, revert to the confirmation steps to ensure the library has been installed successfully.
 
-2.1.4: Clustering  
-[01 Clustering Demo](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files/demos/01-Clustering)  
+2.1.4: [Clustering](https://github.com/rainleander/MSU-AI-microbootcamp/tree/main/module-2-files/demos/01-Clustering)   
 - **Definition**: 
   - Clustering is the process of grouping similar data based on certain similarities.
   - Unsupervised learning models often use clustering algorithms to group objects.
