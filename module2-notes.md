@@ -160,6 +160,20 @@
 
 ### Optimizing Unsupervised Learning
 2.2.1: Finding Optimal Clusters: The Elbow Method  
+- Cluster analysis requires trial and error to find optimal clusters.
+- Different features are tested to achieve the desired number of clusters.
+- K-means algorithm has been used for defining customer segments with limited features like "mobile_app_rating" and "personal_banker_rating".
+- Identifying the optimal number of clusters (k) in a new, unlabeled dataset with many features is challenging.
+- The elbow method is a well-known technique for determining the optimal value of k in the K-means algorithm.
+- The elbow method is a heuristic for efficiently solving the problem of determining the number of clusters.
+- In K-means, uppercase K represents the number of clusters, while lowercase k refers to a cluster in general.
+- The elbow method involves running the K-means algorithm for various values of k and plotting an elbow curve.
+- The elbow curve plots the number of clusters (k) on the x-axis and the measure of inertia on the y-axis.
+- Inertia measures the distribution of data points within a cluster.
+- Low inertia indicates data points are close together within a cluster, implying a small standard deviation relative to the cluster mean.
+- High inertia suggests data points are more spread out within a cluster, indicating a high standard deviation relative to the cluster mean.
+- The optimal value for k is found at the elbow of the curve, where the inertia shows minimal change with each additional cluster added.
+
 2.2.2: Apply the Elbow Method  
 2.2.3: Activity: Finding the Best k  
 2.2.4: Recap and Knowledge Check  
