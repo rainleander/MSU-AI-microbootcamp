@@ -170,11 +170,23 @@
 - The elbow method involves running the K-means algorithm for various values of k and plotting an elbow curve.
 - The elbow curve plots the number of clusters (k) on the x-axis and the measure of inertia on the y-axis.
 - Inertia measures the distribution of data points within a cluster.
-- Low inertia indicates data points are close together within a cluster, implying a small standard deviation relative to the cluster mean.
+- Low inertia indicates data points are close together within a cluster, implying a slight standard deviation relative to the cluster mean.
 - High inertia suggests data points are more spread out within a cluster, indicating a high standard deviation relative to the cluster mean.
 - The optimal value for k is found at the elbow of the curve, where the inertia shows minimal change with each additional cluster added.
 
 2.2.2: Apply the Elbow Method  
+- The Jupyter notebook file 'elbow_method.ipynb' in the 'demos/03-Elbow_Method/Unsolved' directory applies the elbow method.
+- Python and the K-means algorithm are used for customer segmentation analysis with customer service ratings data.
+- Dependencies are imported and the dataset is loaded into a Pandas DataFrame.
+- An empty list is created to store inertia values, and a range of k-values (1 to 10) is used to test.
+- A loop computes inertia for each k-value, which is then appended to the inertia list.
+- A DataFrame is created to hold k-values and corresponding inertia values.
+- The DataFrame is plotted as an elbow curve to observe the relationship between the number of clusters and inertia.
+- The rate of decrease in inertia is analyzed to determine the elbow point, which is identified at k=4.
+- The percentage decrease in inertia between each k-value is calculated to confirm the elbow point.
+- K-means algorithm and plotting are rerun using four clusters.
+- The elbow curve is emphasized as a guide, not a definitive answer, for determining the right number of clusters.
+
 2.2.3: Activity: Finding the Best k  
 2.2.4: Recap and Knowledge Check  
 2.2.5: Scaling and Transforming for Optimization  
