@@ -188,6 +188,27 @@
 - The elbow curve is emphasized as a guide, not a definitive answer, for determining the right number of clusters.
 
 2.2.3: Activity: Finding the Best k  
+- Background: This activity involves using the elbow method to determine the optimal number of clusters for segmenting stock pricing information.
+
+Subtasks:
+  - Establish an elbow curve.
+  - Evaluate the two most likely values for k using K-means.
+  - Generate scatter plots for each value of k.
+
+- Files: Start with the files in `activities/02-Finding_the_Best_k/Unsolved/`.
+
+- Instructions:
+  1. Read the `option-trades.csv` file into a DataFrame using the "date" column as the DateTime Index. Parameters for `parse_dates` and `infer_datetime_format` should be included.
+  2. Create two lists: one for lowercase k-values (1 to 11) and another for inertia scores.
+  3. For each k-value, define and fit a K-means model, then append the model's inertia to the inertia list.
+  4. Store the k-values and inertia in a DataFrame called `df_elbow_data`.
+  5. Plot the `df_elbow_data` DataFrame using Pandas to visualize the elbow curve, ensuring the plot is styled and formatted.
+
+- Solution:
+  - Compare your work with the solution in `activities/02-Finding_the_Best_k/Solved/finding_the_best_k_solution.ipynb` in the `module-2-files` folder.
+  - Reflect on differences between your approach and the solution, and identify confusing aspects.
+  - If questions arise, attend instructor-led office hours for a detailed walkthrough.
+
 2.2.4: Recap and Knowledge Check  
 2.2.5: Scaling and Transforming for Optimization  
 2.2.6: Apply Standard Scaling  
