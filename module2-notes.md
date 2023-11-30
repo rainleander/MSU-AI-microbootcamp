@@ -207,7 +207,6 @@ Subtasks:
 - Solution:
   - Compare your work with the solution in `activities/02-Finding_the_Best_k/Solved/finding_the_best_k_solution.ipynb` in the `module-2-files` folder.
   - Reflect on differences between your approach and the solution, and identify confusing aspects.
-  - If questions arise, attend instructor-led office hours for a detailed walkthrough.
 
 2.2.4: Recap and Knowledge Check  
 - Focus: Using the elbow method to find the optimal number of clusters (k) for data.
@@ -320,9 +319,107 @@ Solution:
 
 ### Principal Component Analysis
 2.3.1: Introduction to Principal Component Analysis  
+- Background: Addressing high dimensionality in machine learning algorithms using Principal Component Analysis (PCA).
+
+- Issue with High Dimensionality:
+  - Datasets with too many features can slow down algorithm execution.
+  - High dimensionality can be problematic in large data sets.
+
+- Principal Component Analysis (PCA):
+  - PCA is used to speed up machine learning algorithms with many features.
+  - It reduces dimensionality by transforming a large set of features into a smaller one.
+  - This process reduces the number of DataFrame columns while preserving helpful information.
+  - PCA helps increase interpretability and minimize information loss.
+
+- Dimensionality Reduction:
+  - Involves reducing dataset size but preserving as much helpful information as possible.
+  - PCA is a popular technique for dimensionality reduction.
+
+- Application of PCA:
+  - Example provided using credit card dataset segmentation with K-means.
+  - The process includes normalizing data, applying PCA, and reducing features.
+
+Steps for Using PCA with K-Means Algorithm:
+  1. Normalize and transform the data.
+  2. Use StandardScaler and get_dummies for data preparation.
+  3. Pick the number of components for PCA.
+  4. Apply dimensionality reduction and get a variance for each component.
+  5. Create a DataFrame with transformed data.
+  6. Determine the optimal k value for segmentation with K-means.
+
+- Application Steps Explained:
+  - PCA reduces the number of variables while preserving as much original data information as possible.
+  - The variance of each PCA component indicates the amount of information it contains.
+  - After PCA, data is represented in principal components without specific meanings.
+  - Explained variance helps determine the importance of each principal component.
+  - Aim for a total explained variance between 70-90% for retaining essential data features.
+  - Overfitting risk increases with too many principal components.
+  - PCA transformation results in a more apparent distinction between customer segments.
+
+- Example: Credit Card Dataset
+  - Use of PCA for more precise segmentation in credit card data.
+  - K-means with 3 clusters applied to the PCA-transformed data.
+  - Scatter plot with PCA dimensions shows distinct customer segments.
+  - Despite some accuracy loss, dimensionality reduction offers more precise visualization.
+
 2.3.2: Recap and Knowledge Check  
+- Relationship Between K-means and PCA:
+  - PCA is used when applying K-means to datasets with many dimensions.
+  - It helps in accelerating algorithms by reducing dimensions to principal components.
+  - This process enhances interpretability and minimizes information loss.
+
+- Steps for Using PCA with K-means Algorithm:
+  1. Normalize and transform the data.
+  2. Utilize StandardScaler for standard scaling.
+  3. Apply get_dummies for handling categorical variables.
+  4. Reduce the number of features in the dataset.
+  5. Choose the number of principal components for dimensionality reduction.
+  6. Apply the dimensionality reduction process.
+  7. Calculate and analyze the variance of each component.
+  8. Convert the transformed data into a DataFrame.
+  9. Determine the optimal k value for K-means clustering.
+  10. Segment the PCA-transformed data using K-means.
+
+- Learning Progression:
+  - Understanding PCA and its application.
+  - Upcoming focus: Simplifying stock data using standard scaling and PCA.
+  - Objective: To reduce the number of columns for clustering and then apply K-means.
+
 2.3.3: Activity: Energize Your Stock Clustering  
+- Background:
+  - Purpose: To use the K-means algorithm and clustering optimization techniques for clustering stocks and defining a portfolio investment strategy.
+
+- Files and Instructions:
+  - Access the files in: `activities/04-Energize_Your_Stock_Clustering/Unsolved/`.
+  - Use Jupyter notebook in the Unsolved folder for the following tasks:
+    - Read in `tsx-energy-2018.csv`, setting "Ticker" as the DataFrame index.
+    - Review and utilize four code cells to scale the `df_stocks` DataFrame and create a scaled DataFrame.
+    - Cluster the data in `df_stocks_scaled` using K-means with a lowercase-k value of 3, or determine optimal k using the elbow method.
+    - Add the cluster values as a new column in `df_stocks_scaled`.
+    - Create a scatter plot with axes "AnnualVariance" and "Annual Return", color-coded by "StockCluster".
+
+- Advanced Analysis with PCA:
+  - Use PCA to reduce `df_stocks_scaled` to two principal components:
+    - Review the PCA data and calculate the explained variance ratio.
+    - Create a DataFrame `df_stocks_pca` with the PCA data and tickers from the original DataFrame.
+    - Set the new Tickers column as the index for `df_stocks_pca`.
+    - Rerun K-means using the PCA data and creating a scatter plot using the two principal components.
+
+- Review and Comparison:
+  - Review the completed activity by comparing the solution in `activities/04-Energize_Your_Stock_Clustering/Solved/energize_your_stock_clustering_solution.ipynb`.
+  - Evaluate differences and understanding of the process.
+
 2.3.4: Recap and Knowledge Check  
+- Overview:
+  - This lesson demonstrates the culmination of learnings in the module through the application of Principal Component Analysis (PCA).
+
+- Key Takeaways:
+  - Understanding the importance of PCA in data visualization and AI applications.
+  - The examples and activities provide practical experience in using PCA.
+
+- Next Steps:
+  - The module concludes with a recap in the form of a summary and reflection.
+  - Engaging with the final lesson helps solidify the learnings from the entire module.
 
 ### Summary: Unsupervised Learning
 2.4.1: Summary: Unsupervised Learning  
