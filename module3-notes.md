@@ -246,7 +246,7 @@
 
 - Analogy:
   - Studying for an exam using a test bank of questions.
-  - Studying with part of the questions and using the rest as a mock test to gauge readiness.
+  - Study part of the questions and use the rest as a mock test to gauge readiness.
 
 - Importance of Splitting Datasets:
   - Provides an understanding of how the model performs with unseen data.
@@ -288,10 +288,181 @@
 
 ### Linear Regression
 3.3.1: Introduction to Linear Regression  
+- Supervised Learning and Linear Regression:
+  - Linear regression is used for predicting continuous values.
+  - Suitable for both continuous and discrete variable predictions.
+
+- Continuous Values:
+  - Can always be divided into smaller ranges.
+  - Examples include distance and price, with the possibility of finding smaller units.
+
+- Linear Regression Explained:
+  - Describes the relationship between a dependent variable and one/more independent variables.
+  - Example: The contagion rate (dependent variable) depends on various factors (independent variables).
+
+- Types of Linear Regression:
+  - Simple Linear Regression:
+    - Relationship between one dependent and one independent variable.
+  - Multiple Linear Regression:
+    - Relationship between one dependent variable and two or more independent variables.
+
+- Formula and Components:
+  - Formula represents the relationship between independent variable (x) and dependent variable (y).
+  - Simple linear regression model is written as y = a + bx.
+    - b: Slope of the relationship.
+    - a: Y-intercept (value of y when x is 0).
+  - Greek Notation in Equations:
+    - Β0 (Beta zero) represents the y-intercept.
+    - Β1 (Beta one) represents slope.
+    - x is the independent variable.
+
+- Trends in Linear Regression Data:
+  - Positive Trends: Dependent value y increases as independent value x increases.
+  - Negative Trends: Dependent value y decreases as independent value x increases.
+  - No Trend: Random increases and decreases in y with no apparent pattern as x increases.
+
+- Application in Supervised Learning:
+  - Linear regression is a supervised learning model.
+  - Predicts the value of y based on historical data.
+
 3.3.2: Making Predictions with Linear Regression  
+- Practical Application of Supervised Learning Concepts:
+  - Example: Predicting salary based on years of Python and Scikit-learn experience.
+
+- Steps for Implementing a Supervised Learning Model:
+  - Model-Fit-Predict process involving creation, training, and prediction using the model.
+
+- Getting Started with the Example:
+  - Dataset: CSV file with salary data.
+  - Python Setup: 
+    - Use of Scikit-learn for linear regression.
+    - Import necessary libraries: numpy, pandas, sklearn.linear_model.
+  - Loading Data:
+    - Read salary data into a Pandas DataFrame.
+    - Inspect the relationship between years of experience and salary using a scatter plot.
+
+- Data Preparation:
+  - Formatting Data for Scikit-learn:
+    - Reshape years of experience data to meet Scikit-learn requirements.
+    - Assign the salary column as the target variable (y).
+
+- Creating and Training the Model:
+  - Instantiate a linear regression model.
+  - Fit the model with input (X) and output (y) data.
+
+- Model Parameters and Predictions:
+  - Examine model parameters like slope and y-intercept.
+  - Use the model's formula for salary prediction.
+  - Make multiple predictions using the predict() method.
+
+- Analyzing Predictions:
+  - Compare original and predicted salary data in a DataFrame.
+  - Visualize predictions with a line plot of the best fit.
+
+- Extending Predictions Beyond Current Data:
+  - Extrapolate predictions for years of experience not in the dataset.
+  - Plot original data points and predicted values together.
+
+- Summary of Supervised Learning Pattern:
+  - Split data into input (X) and output (y).
+  - Create a model instance and train it with the dataset.
+  - Generate predictions using the trained model.
+
+- Skill Drill:
+  - Encouragement to rerun the notebook to understand linear regression predictions better.
+
 3.3.3: Model Evaluation: Quantifying Regression  
+- Evaluating Regression Model Performance:
+  - Importance: Visual confirmation is not enough; quantification of the model is essential.
+
+- Common Quantification Scores:
+  - R-squared (R2):
+    - Measures how well the model accounts for data variability.
+    - Ranges between 0 and 1; higher values indicate better predictiveness.
+    - Example: An R2 of 0.85 means the model accounts for 85% of data variability.
+  - Mean Squared Error (MSE):
+    - Indicates accuracy in predicting each data point.
+    - Larger errors have a greater impact due to squaring, sensitive to outliers.
+    - Always above 0 with no upper limit; varies widely between projects.
+    - Used for comparing models trained on the same data.
+  - Root Mean Squared Error (RMSE):
+    - Aggregate of prediction errors' magnitude across data points.
+    - Amplifies the importance of outliers.
+    - Uses the same units as the training data.
+    - "Good" scores for R2 and MSE depend on the problem domain.
+
+- Understanding Errors:
+  - Error refers to the distance between each data point and the model's line of best fit.
+
+- Calculating Metrics in Python:
+  - Using sklearn metrics functions: `mean_squared_error` and `r2_score`.
+  - Code Example:
+    - Import required sklearn functions.
+    - Calculate R2, MSE, and RMSE for the salary prediction model.
+    - Example Output:
+      - Score: 0.95696
+      - R2: 0.95696
+      - Mean Squared Error: 31270951.7223
+      - Root Mean Squared Error: 5592.0436
+
+- Skill Drill:
+  - Rerun the notebook for deeper understanding.
+  - The code is available in the provided Jupyter notebook solution file.
+
 3.3.4: Activity: Predicting Sales with Linear Regression  
+- Activity Overview: Creating a Linear Regression Model for Sales Prediction
+  - Objective: Write code to produce a linear regression model predicting sales based on ad display numbers.
+  - Evaluation: Calculate MSE, RMSE, and R2 scores to assess the model's performance.
+
+- Background Scenario:
+  - Developed a unique child seat suitable for traveling families.
+  - Ran a digital marketing campaign with varying ad displays to promote the product.
+  - Aim to predict expected sales based on the number of ads displayed.
+
+- Steps for Completing the Activity:
+  - Access the activity files in `activities/01-Linear_Regression/Unsolved`.
+  - Use the Jupyter notebook in the Unsolved folder.
+  - Process:
+    1. Load and visualize sales data.
+    2. Prepare data for fitting into a linear regression model.
+    3. Build the model using Scikit-learn's LinearRegression module.
+    4. Plot the line of best fit for the sales prediction model.
+    5. Manually predict sales with a hypothetical 100 ads.
+    6. Use the predict function for automated predictions.
+    7. Compute relevant metrics (MSE, RMSE, R2) for model evaluation.
+
+- Post-Activity Review:
+  - Access the solution in the Solved folder.
+  - Compare your approach and code to the provided solution.
+  - Identify any differences or areas of confusion.
+  - Seek assistance during instructor-led office hours for further clarification.
+
 3.3.5: Recap and Knowledge Check  
+- Overview of Linear Regression in Supervised Learning:
+  - Purpose: Describes the relationship between a numerical response and explanatory variables.
+
+- Types of Linear Regression:
+  - Simple Linear Regression:
+    - Relationship between one dependent and one independent variable.
+  - Multiple Linear Regression:
+    - Relationship between one dependent variable and two or more independent variables.
+
+- Linear Regression Formula:
+  - Models the relationship between independent variable (x) and dependent variable (y).
+
+- Practical Application Using Python:
+  - Example: Predicting a person’s salary based on work experience.
+  - Tool: Scikit-learn, a Python machine learning library.
+
+- Basic Pattern for Linear Regression:
+  1. Data Splitting:
+     - Split data into inputs (X) and outputs (y).
+  2. Model Creation:
+     - Instantiate the model: `model = LinearRegression()`.
+  3. Model Training:
+     - Train the model using the dataset: `model.fit(X, y)`.
+  4. Making Predictions:
+     - Generate predictions: `y_predictions = model.predict(X)`.
 
 ### Summary: Supervised Learning — Linear Regression
 3.4.1: Summary: Supervised Learning — Linear Regression  
