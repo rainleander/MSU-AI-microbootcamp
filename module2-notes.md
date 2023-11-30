@@ -132,7 +132,7 @@
   - Customer segmentation is crucial in financial services for better market understanding.
   - Notable Example: **Netflix**:
     - Uses segmentation to recommend movies based on customer preferences.
-    - Has improved product utility and reduced user cancellation rates through this.
+    - This has improved product utility and reduced user cancellation rates.
 
 - **Using K-Means with scikit-learn**:
   - K-Means can be implemented in Python using the **scikit-learn** library.
@@ -146,7 +146,7 @@
 - The data is loaded using Python's Pandas library from a CSV file named `service-ratings.csv`.
 - Initial data review shows two columns: “mobile_app_rating” and “personal_banker_rating”.
 - A scatter plot is created to visualize the spread of these ratings.
-- Data visualization reveals that clear clusters aren't immediately obvious; however, there's a noticeable congregation of points around specific values.
+- Data visualization reveals that clear clusters aren't immediately apparent; however, there's a noticeable congregation of points around specific values.
 - The K-means clustering algorithm from the scikit-learn library will be used to identify clusters in this data.
 - The K-means model is initialized targeting two clusters, with specific parameters for consistent outcomes (`random_state=1`) and automatic determination of starting centroids (`n_init='auto'`).
 - The model is trained (fit) using the service ratings data.
@@ -177,7 +177,7 @@
 2.2.2: Apply the Elbow Method  
 - The Jupyter notebook file 'elbow_method.ipynb' in the 'demos/03-Elbow_Method/Unsolved' directory applies the elbow method.
 - Python and the K-means algorithm are used for customer segmentation analysis with customer service ratings data.
-- Dependencies are imported and the dataset is loaded into a Pandas DataFrame.
+- Dependencies are imported, and the dataset is loaded into a Pandas DataFrame.
 - An empty list is created to store inertia values, and a range of k-values (1 to 10) is used to test.
 - A loop computes inertia for each k-value, which is then appended to the inertia list.
 - A DataFrame is created to hold k-values and corresponding inertia values.
@@ -210,6 +210,20 @@ Subtasks:
   - If questions arise, attend instructor-led office hours for a detailed walkthrough.
 
 2.2.4: Recap and Knowledge Check  
+- Focus: Using the elbow method to find the optimal number of clusters (k) for data.
+
+Subtasks:
+  1. Running the K-means algorithm for a range of k-values.
+  2. Plotting the results and the corresponding level of inertia for each k-value.
+
+- Inertia: Measures the distribution of data points within a cluster.
+  - Optimal k-value: Identified at the elbow of the curve where the rate of decrease in inertia slows down.
+
+- Next Steps: Introduction to data optimization through data scaling.
+  - Importance: Data scaling is crucial for applying PCA (Principal Component Analysis).
+  - PCA combines learnings from unsupervised learning to enhance the algorithm and simplify data interpretation.
+  - Further exploration of PCA will follow the scaling and transforming data activity.
+    
 2.2.5: Scaling and Transforming for Optimization  
 2.2.6: Apply Standard Scaling  
 2.2.7: Activity: Standardizing Stock Data  
