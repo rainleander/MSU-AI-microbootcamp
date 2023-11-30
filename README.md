@@ -72,6 +72,7 @@
 2.4.3: References  
 
 ## Module 3: Supervised Learning — Linear Regression
+[Module 3 Notes](module3-notes.md)
 ### Supervised Learning Overview
 3.1.1: Introduction to Supervised Learning  
 3.1.2: Supervised vs. Unsupervised Learning  
