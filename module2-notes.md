@@ -225,9 +225,98 @@ Subtasks:
   - Further exploration of PCA will follow the scaling and transforming data activity.
     
 2.2.5: Scaling and Transforming for Optimization  
+- Overview: Applying PCA to enhance machine learning algorithms after optimizing data clustering with K-means.
+
+Subtasks:
+  1. Apply standard scaling to data features before using PCA.
+  2. Combine PCA with K-means for better processing of large datasets.
+
+- Preparing Data:
+  - Manual data preparation, especially normalization or transformation, is time-consuming for multiple columns.
+  - K-means requires numeric values in a DataFrame to be on the same scale to avoid bias towards any single variable.
+
+- Standard Scaling:
+  - Common method for data scaling, centering values around the mean.
+  - Involves transforming data to eliminate measurement units and bring numeric values to a similar scale.
+  - Use of functions from Pandas and scikit-learn simplifies data preparation.
+  - Standard scaling centers bell curves around the same mean value, making them comparable.
+  - Example: Scaling "Annual Income" using StandardScaler from scikit-learn.
+    - StandardScaler calculates the column mean and scales data to a standard deviation of 1.
+    - Formula: (value - mean)/standard deviation.
+  - Scaling to a mean of 0 and standard deviation of 1 is essential for equalizing variable ranges in machine learning models.
+
+- Importance:
+  - Prevents machine learning models from giving undue importance to columns with larger or more widely ranging values.
+  - Known as data standardization, a common practice before training machine learning models.
+
+- Application:
+  - Demonstration of applying standard scaling to a shopping dataset.
+
 2.2.6: Apply Standard Scaling  
+- Overview: Application of standard scaling using a shopping dataset from the "Spending beyond your K-Means" activity.
+
+Steps for Standard Scaling:
+  1. Import the StandardScaler module and Pandas.
+  2. Load data into a DataFrame and drop unnecessary columns like "CustomerID".
+  3. Scale numeric columns "Age", "Annual Income", and "Spending Score" using StandardScaler's fit_transform function.
+  4. Create a new DataFrame with scaled data.
+
+- Important Notes:
+  - StandardScaler's fit_transform function returns an array, not a DataFrame.
+  - The array needs conversion to a DataFrame, with columns named in the order they were scaled.
+  - StandardScaler is suitable for continuously ranging data, not categorical data.
+
+Handling Categorical Data:
+  - Use Pandas' get_dummies function to transform categorical data into numerical format.
+  - Example: Transform "Card Type" column into numerical values representing "Credit" and "Debit".
+  - get_dummies converts categorical columns into separate numerical columns.
+
+Concatenating Transformed Data:
+  - Concatenated scaled numerical data and transformed categorical data into one DataFrame using Pandas' concat function.
+
+Pro Tip:
+  - Scaling numeric data and encoding categorical data are essential practices in data preparation for K-means clustering.
+  - Ensures all data is on the same scale, preventing disproportionate weight to any variable.
+
+- Application:
+  - Practice standard scaling and encoding variables in the next activity.
+
 2.2.7: Activity: Standardizing Stock Data  
+- Background: Standardize stock data and use the K-means algorithm for clustering.
+
+Files:
+  - Begin with files in `activities/03-Standardizing_Stock_Data/Unsolved/`.
+
+Instructions:
+  1. Read the `tsx-energy-2018.csv` file into a DataFrame, setting the “Ticker” column as the index.
+  2. Note: Stock data includes yearly mean prices, volume, annual return, and variance from TSX-listed energy companies.
+  3. Use the StandardScaler module and fit_transform function to scale numerical columns.
+  4. Review a sample of the scaled data.
+  5. Create a new DataFrame, `df_stocks_scaled`, with the scaled data:
+     - Retain original column labels.
+     - Add and set the ticker column from the original DataFrame as the index.
+  6. Review the new DataFrame.
+  7. Encode the “EnergyType” column using pd.get_dummies, storing the result in `df_oil_dummies`.
+  8. Concatenate `df_stocks_scaled` and `df_oil_dummies` using pd.concat function along axis=1.
+  9. Review the concatenated DataFrame.
+  10. Cluster the data using the K-means algorithm with a k value 3.
+  11. Create a copy of the DataFrame and add a column with company segment values.
+
+Solution:
+  - Compare your work with the solution in `activities/03-Standardizing_Stock_Data/Solved/standardizing_stock_data_solution.ipynb`.
+  - Reflect on the differences between your approach and the solution.
+  - Please feel free to seek help during instructor-led office hours for any confusion or questions.
+
 2.2.8: Recap and Knowledge Check  
+- Overview: Scaling or normalizing datasets prepares data for future analysis.
+  - Purpose: Adjust the scale of data for easier comparison.
+  - Methods: This can be done manually or using functions from Pandas and scikit-learn.
+
+- Recent Lesson: Explored data scaling by centering values around the mean, known as standard scaling.
+
+- Upcoming Lesson: 
+  - Focus: Understanding the importance of scaling data for PCA (Principal Component Analysis).
+  - Content: Explore the steps involved in the PCA technique.
 
 ### Principal Component Analysis
 2.3.1: Introduction to Principal Component Analysis  
