@@ -141,7 +141,50 @@ This text provides an overview of supervised learning, focusing on linear regres
   4. Evaluate the model with accuracy_score().
 
 4.2.6: Activity: Logistic Regression  
+**Background:**
+- Nefarious actors attempt to steal private information through malware apps on electronic devices.
+- The task is to use logistic regression to identify malware in a real-world problem.
+
+**Instructions:**
+1. **Prepare the Data:**
+   - Load the "app-data.csv" file into a Pandas DataFrame.
+   - Use value_counts to determine how many malware apps are in the dataset.
+
+2. **Split the Data into Training and Testing Sets:**
+   - Define the target variable (y) as "Result" and features (X) as all columns except "Result."
+   - Split the data into training and testing datasets (X_train, X_test, y_train, y_test) using train_test_split.
+
+3. **Model and Fit the Data to a Logistic Regression:**
+   - Declare a LogisticRegression model.
+   - Fit the model to the training data and save it.
+   - Validate the model.
+
+4. **Predict the Testing Labels:**
+   - Use the testing dataset to make predictions about malware and save them.
+
+5. **Calculate the Performance Metrics:**
+   - Calculate the accuracy score by comparing y_test to testing_predictions.
+   - Determine how well the model predicted actual malware for this dataset.
+
+**Resources:**
+- Logistic regression
+- train_test_split
+- Accuracy score
+
+**Solution:**
+- Compare your work to the solution in the Solved folder in the activity folder.
+- Evaluate your performance and check for differences between your approach and the solution.
+
 4.2.7: Recap and Knowledge Check  
+- Logistic regression predicts discrete outcomes based on probability.
+- Probability is represented using a sigmoid curve.
+- The model assigns a sample to a class if its probability exceeds a cutoff point.
+- The same model-fit-predict process as linear regression is followed in supervised learning.
+- Steps: 
+  1. Create a model with LogisticRegression().
+  2. Train the model with model.fit().
+  3. Make predictions with model.predict().
+  4. Evaluate the model with accuracy_score().
 
 ### Model Selection
 4.3.1: Introduction to Model Selection  
