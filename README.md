@@ -99,6 +99,7 @@
 3.4.3: References  
 
 ## Module 4: Supervised Learning — Classification
+[Module 4 Notes](module4-notes.md)
 ### Classification Overview
 4.1.1: Classification Overview  
 4.1.2: Getting Started  
@@ -137,6 +138,7 @@
 ## Project 1: Developing a Spam Detection Model
 
 ## Module 5: Machine Learning Optimization
+[Module 5 Notes](module5-notes.md)
 ### Introduction to Machine Learning Optimization
 5.1.1: Introduction to Machine Learning Optimization  
 5.1.2: Getting Started  
@@ -173,6 +175,7 @@
 5.5.3: References  
 
 ## Module 6: Neural Networks and Deep Learning
+[Module 6 Notes](module6-notes.md)
 ### Introduction to Neural Networks and Deep Learning
 6.1.1: Introduction to Neural Networks and Deep Learning  
 6.1.2: Your Neural Network and Deep Learning Background  
@@ -211,6 +214,7 @@
 ## Project 2: Predict Student Loan Repayment with Deep Learning
 
 ## Module 7: Natural Language Processing
+[Module 7 Notes](module7-notes.md)
 ### Introduction Natural Language Processing
 7.1.1: Introduction to NLP  
 7.1.2: Getting Started  
@@ -247,6 +251,7 @@
 7.4.8: References  
 
 ## Module 8: Emerging Topics in AI
+[Module 8 Notes](module8-notes.md)
 ### Introduction to Emerging Topics in AI
 8.1.1: Introduction  
 8.1.2: Getting Started  
