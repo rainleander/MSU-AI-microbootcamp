@@ -137,7 +137,7 @@
 
 ## Project 1: Developing a Spam Detection Model
 [Project 1 Scope](project1-spam-detection-model.md)  
-[Project 1 Starter Code](Project1_Starter_Code)
+[Project 1 Starter Code](Project1_Starter_Code/spam_detector.ipynb)  
 [Project 1 Submission]()
 
 ## Module 5: Machine Learning Optimization
