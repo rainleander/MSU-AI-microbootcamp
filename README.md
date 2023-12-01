@@ -216,7 +216,7 @@
 6.5.3: References  
 
 ## Project 2: Predict Student Loan Repayment with Deep Learning
-[Project 2 Scope]()  
+[Project 2 Scope](project2-student-loans.md)  
 [Project 2 Starter Code](project2_starter_code/student_loans_with_deep_learning.ipynb)  
 [Project 2 Submission .ipynb format]()  
 [Project 2 Submission .py format]()
