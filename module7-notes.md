@@ -323,9 +323,62 @@
 
 ### AI Applications
 7.4.1: AI Applications with Gradio  
+- We've used transformers for NLP applications like language translation, text generation, question answering, and text summarization.
+- These NLP applications are commonly used in everyday tools like Google Translate and search engines.
+- In demonstrations, we've interacted with these models using Python code.
+- In real-world applications, users typically interact with these models through a graphical user interface (GUI), not directly with code.
+- For everyday use, such as finding a coffee shop, users would type queries into a search bar, utilizing the search engine's GUI.
+- The lesson will focus on converting the text summarization code into an AI application with an easy-to-use interface, requiring no coding from the user.
+- Gradio, a Python library, will be used to build the GUI for the machine learning model, making the application accessible and user-friendly.
+- The lesson aims to demonstrate the Gradio Interface function and its application in creating user-friendly interfaces for AI and machine learning models.
+
 7.4.2: Gradio Interfaces  
+- Gradio interfaces act as wrappers for Python functions, allowing dynamic user input and displaying code outputs.
+- An example demonstrates Gradio with a simple non-AI function that takes text input and returns modified text.
+- To use Gradio, first install it using `!pip install gradio`.
+- Create a function `run(msg)` that returns a string with the input message.
+- In an example, calling `run("Hello")` in Python code returns "Running with message: Hello".
+- However, modifying code for user interaction is impractical, so Gradio Interface is used to create a GUI.
+- Import Gradio as `gr` and create an app with `gr.Interface`, specifying the function, inputs, and outputs.
+- The `app.launch()` function launches the GUI, allowing users to interact without coding.
+- The GUI lets users enter a message in a text field, click Submit, and see the function's output on the page.
+- A public URL for the GUI can be created by setting the `share` parameter to `True` in the launch function.
+- The public link is temporary, valid for 72 hours, with options to make it permanently available.
+- A skill drill suggests creating a `greeter` function using Python and Gradio to greet a user by name.
+
 7.4.3: Gradio App: Text Summarization  
+- Utilizing Gradio, a user-friendly interface is created for a text summarization example based on an article about Deep Learning from Wikipedia.
+- The original code for text summarization uses the `pipeline` function from the `transformers` library, specifically using the 'facebook/bart-large-cnn' model.
+- The provided Wikipedia article on Deep Learning covers various aspects of deep learning, artificial neural networks, and their applications.
+- The summarization model `summarizer` is created using the `pipeline` function with specified maximum and minimum lengths for the summary.
+- A new function `summarize` is refactored to accept an article as input, run the transformer model, and return the text summary.
+- The `summarize` function is tested with the same article to ensure it functions as expected.
+- Gradio is then imported to create a dynamic user interface for the `summarize` function.
+- The Gradio interface is created with `gr.Interface`, specifying `summarize` as the function and inputs and outputs as text.
+- The application is launched using the `app.launch()` method, allowing users to dynamically input text and receive a summary.
+- Users can now paste text into the Gradio app, submit it, and receive a summarized version, demonstrating the successful creation of an AI application using Gradio.
+
 7.4.4: Other Gradio Components  
+- The Gradio library allows for creating of user-friendly interfaces with additional versatility, using pre-built components for inputs and outputs.
+- Number Components: 
+  - Previously, the minimum and maximum word lengths for text summarization were hard coded. Gradio can be used to add fields for users to input these values dynamically.
+  - In a demonstration, a function `summarize` is modified to accept a user-defined maximum output length.
+  - A Gradio app is created, allowing inputs of text and a maximum word count for the summary.
+  - Default values for number components can be set, with an example showing a default of 150 words for the maximum length of the summary.
+
+- Default Values:
+  - Gradio's number component can be initialized with a default value, improving usability.
+  - The Gradio interface is updated to include this default value for the maximum word count.
+
+- Checkbox Components:
+  - Gradio's checkbox component is introduced for boolean inputs.
+  - The `summarize` function is modified to accept a third parameter for the `do_sample` boolean value.
+  - The Gradio app is updated to include a slider for summary length and a checkbox to toggle the `do_sample` parameter.
+  - Users can now interact with the app, adjusting the slider and toggling the checkbox to influence the summary output.
+
+- The lesson highlights Gradio's ability to transform machine learning models into easy-to-use applications without requiring coding knowledge from the user.
+- Gradio apps (demos) help broaden the audience for models, facilitating feedback from a diverse pool of users, which can uncover points of failure and algorithmic biases in models.
+
 7.4.5: Activity: Question and Answering Textbox  
 7.4.6: Introduction to Hugging Face Spaces  
 7.4.7: Recap and Knowledge Check  
