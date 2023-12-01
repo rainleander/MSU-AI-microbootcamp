@@ -165,9 +165,102 @@
   - Example: The model shows 99.99% accuracy but fails to identify fraudulent transactions.
 
 5.2.5: Other Metrics  
+- **Sensitivity (Recall)**:
+  - Measures how many actual true data points are correctly identified.
+  - Ideal for situations where avoiding false negatives is crucial (e.g., identifying fraudulent transactions, poisonous mushrooms, or cancer patients).
+
+- **Specificity**:
+  - Assesses how many actually false data points are correctly identified as negative.
+  - Important for models where false positives are undesirable (e.g., identifying patients or edible mushrooms).
+
+- **Precision**:
+  - Focuses on avoiding false positives.
+  - Useful for scenarios like identifying credit risks or high-risk areas for violent crime.
+  - Determines how many predicted true results are actually true.
+
+- **Balancing Risk and Measurement Selection**:
+  - Importance of choosing the right metric for a given problem.
+  - Sensitivity vs. Precision:
+    - High sensitivity: Good for diagnosing diseases like cancer, where missing a positive result can have severe consequences.
+    - High precision: Important in criminal justice to avoid wrongful convictions.
+
+- **F1 Score**:
+  - Balances sensitivity and precision.
+  - The harmonic mean of sensitivity and precision.
+  - Higher scores indicate a better balance between sensitivity and precision.
+
+- **Deep Dive and Further Research**:
+  - Weighted F1 scores can be more informative in certain contexts.
+  - Encouraged to research weighted F1 scores for future projects.
+
 5.2.6: Classification Report  
+- **Using a Classification Report in Scikit-learn**:
+  - Collates precision, sensitivity (recall), F1 score, and accuracy.
+  - Conveniently summarizes various success metrics.
+
+- **Example of a Classification Report**:
+  - Test data with 192 data points: 125 false and 67 true.
+  - Precision scores: 0.78 for negative predictions, 0.75 for positive.
+  - Sensitivity (recall) scores: 0.9 for negative predictions, 0.54 for positive.
+  - F1 scores and overall accuracy detailed.
+  - Includes macro and weighted averages.
+
+- **Observations from the Report**:
+  - Similar precision for positive and negative predictions.
+  - Lower sensitivity for positive predictions, affecting F1 score.
+
+- **Generating a Classification Report**:
+  - Code snippet to produce and display the report: `print(report)`.
+
+- **Importance of Model Evaluation**:
+  - Crucial to use these metrics for model improvement.
+
+- **Pro Tip on Imbalanced Data**:
+  - Imbalanced data can skew model predictions.
+  - Example shows low sensitivity for positive predictions due to data imbalance.
+  - Upcoming lesson to explore imbalanced data in more detail.
+
 5.2.7: The Importance of Metric and Target Selection  
+- **Selecting Target and Metric in Machine Learning**:
+  - Emphasizes careful selection of target and metric before starting a project.
+  - Different problems necessitate different outcome priorities.
+
+- **Ethical Responsibility in Predictive Modeling**:
+  - Importance of ethical considerations in model creation.
+  - Targets and metrics selection can impact people's lives.
+
+- **Examples of Ethical Considerations**:
+  - Using "loan approved" as a target could perpetuate existing biases.
+  - A model identifying all edible mushrooms but including inedible ones is impractical and dangerous.
+
+- **Prioritizing Correct Identification**:
+  - More useful to correctly identify inedible mushrooms, even if some edible ones are mistakenly excluded.
+
+- **Importance of Metric Selection**:
+  - Correct metric selection doesn't guarantee performance but helps identify and understand problems.
+
+- **Upcoming Focus on Imbalanced Data**:
+  - Next lesson to address how imbalanced data affects model performance.
+
 5.2.8: Recap and Knowledge Check  
+- **Summary of Lesson Content**:
+  - Emphasis on choosing the right target and model.
+  - Understanding overfitting and underfitting in models.
+  - Utilization of confusion matrices and understanding true/false positives and negatives.
+  
+- **Different Success Metrics for Model Evaluation**:
+  - Accuracy: How many correct results a model returns.
+  - Sensitivity (Recall): Measures correct identification of true cases.
+  - Specificity: Focuses on correctly identifying false cases as negative.
+  - Precision: Assesses avoidance of false positives.
+  - F1 Score: Balances sensitivity and precision.
+
+- **Using Classification Reports**:
+  - Classification reports summarize precision, sensitivity, F1 score, and accuracy.
+  
+- **Preparation for Model Optimization**:
+  - Recognizes the need for additional data preparation in optimizing models.
+  - Upcoming lesson to address challenges related to imbalanced data.
 
 ### Case Study: Imbalanced Data
 5.3.1: Introduction to Imbalanced Data  
