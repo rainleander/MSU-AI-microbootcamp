@@ -137,7 +137,7 @@
 
 ## Project 1: Developing a Spam Detection Model
 [Project 1 Scope](project1-spam-detection-model.md)  
-[Project 1 Starter Code](Project1_Starter_Code/spam_detector.ipynb)  
+[Project 1 Starter Code](project1_starter_code/spam_detector.ipynb)  
 [Project 1 Submission .ipynb format](rleander_spam_detector.ipynb)  
 [Project 1 Submission .py format](rleander_spam_detector.py)
 
@@ -216,6 +216,10 @@
 6.5.3: References  
 
 ## Project 2: Predict Student Loan Repayment with Deep Learning
+[Project 2 Scope]()  
+[Project 2 Starter Code]()  
+[Project 2 Submission .ipynb format]()  
+[Project 2 Submission .py format]()
 
 ## Module 7: Natural Language Processing
 [Module 7 Notes](module7-notes.md)
