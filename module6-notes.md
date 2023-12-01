@@ -529,5 +529,32 @@
 
 ### Summary: Neural Networks and Deep Learning
 6.5.1: Summary: Neural Networks and Deep Learning  
+- Successfully learned to model, train, and make predictions with neural networks and deep learning models.
+- Gained an understanding of a neural network and its comparison with other machine learning models.
+- Learned to differentiate between neural network models and deep neural network models.
+- Acquired skills to preprocess data for neural network models.
+- Implemented neural network models using TensorFlow and Keras.
+- Learned to save trained TensorFlow neural network models for later use.
+- Developed deep neural network models using TensorFlow and Keras.
+- Recognized the wide application of these models in everyday technology and innovative AI developments.
+- Acknowledged the limitations of neural networks and deep learning, including computational expense and susceptibility to overfitting.
+- Understood the importance of mindful design and evaluation of these models.
+- Realized the potential and growing scope of applications for neural networks and deep learning, mirroring human brain functionality.
+- Prepared to explore natural language processing next, focusing on teaching computers to understand human speech and text nuances.
+
 6.5.2: Reflect on Your Learning  
+- Reflection on new insights or contradictions to previous understanding of neural networks and deep learning.
+- Consideration of how learning in this module may have altered perceptions of neural networks in everyday applications like recommendation systems and speech recognition.
+- Evaluation of industry applications introduced in the module and their impact on opinions about using neural networks and deep learning professionally.
+- Identification of challenging concepts or skills encountered during the module.
+- Recognition of enjoyable or particularly intriguing concepts or skills, sparking further curiosity.
+- Contemplation of potential applications of these models in personal or professional settings for insightful predictions.
+
 6.5.3: References  
+American Optometric Association, n.d. Myopia (nearsightedness), Available: https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/myopia?sso=y [2023, April 3]
+
+Giamas, A. 2016. How YouTube's recommendation algorithm works, Available:https://www.infoq.com/news/2016/09/How-YouTube-Recommendation-Works/ [2023, March 31]
+
+OpenAI. 2022. Introducing ChatGPT. Available: https://openai.com/blog/chatgpt [2023, March 31]
+
+Ramos, D. 2021. Real-life and business applications of neural networks, Available: https://www.smartsheet.com/neural-network-applications [2023, March 31]
