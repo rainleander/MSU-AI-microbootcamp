@@ -204,10 +204,132 @@
     - Total of five parameters in the model.
 
 6.3.3: Compile a Neural Network  
+- **Understanding Neural Network Compilation in Keras**:
+  - Creating a neural network is akin to designing a house's blueprints, specifying layers and activation functions.
+  - Compiling the neural network is like building the house, specifying loss, optimization, and activation functions.
+
+- **Loss Functions, Activation Functions, and Evaluation Metrics**:
+  - Loss function: Indicates performance change over iterations during model training.
+  - Optimization function: Shapes the neural network during training, reducing losses for accurate output.
+  - Evaluation metric (accuracy): Tracks model predictive accuracy, especially for binary classification models. A higher value (closer to 1) indicates better accuracy.
+
+- **Compiling the Neural Network Model**:
+  - Utilize the `compile` function in Keras.
+  - For binary classification, use `binary_crossentropy` as the loss function.
+  - Set the optimizer to `adam` to balance speed and quality.
+  - Set the evaluation metric to `accuracy`, aiming for it to be as close to 1 as possible.
+
 6.3.4: Train a Neural Network  
+- **Training the Neural Network Model**:
+  - The next step is to train the compiled neural network using the `fit` function.
+  - Training requires x and y values and the number of epochs.
+  - An epoch is a complete pass of the training dataset through the model.
+  - The optimizer and loss functions adjust the weights during each epoch.
+  - Example: `model = neuron.fit(X_train_scaled, y_train, epochs=100)`.
+
+- **Observing Training Results**:
+  - The output shows loss and accuracy results for each epoch.
+  - The goal is to minimize loss and maximize accuracy.
+
+- **Visualizing Model Performance**:
+  - Create a DataFrame from the model's history dictionary, storing loss and accuracy.
+  - Plot loss and accuracy using Pandas to visualize improvements over epochs.
+  - Ideal trend: Accuracy increases and loss decreases with more epochs.
+
+- **Determining Optimal Number of Epochs**:
+  - Start with 20 epochs and adjust based on performance.
+  - Aim for loss nearing zero and accuracy approaching 1.
+  - Increase epochs in increments until the desired performance is achieved.
+
+- **Evaluating Model Performance with Test Data**:
+  - Assess the model’s performance on test data to ensure reliability.
+  - Use the `evaluate` function in TensorFlow for testing.
+  - Example: Evaluate using `model_loss, model_accuracy = neuron.evaluate(X_test_scaled, y_test, verbose=2)`.
+  - Evaluate results by loss and accuracy on the test data.
+
+- **Next Steps**: 
+  - Learn to use the trained neural network to predict new, unseen data.
+
 6.3.5: Make Predictions with a Neural Network  
+- **Reaching the Prediction Stage**:
+  - Utilize the trained neural network model for predicting binary classifications on new datasets.
+  - Employ the `predict` function in the neural network for generating predictions.
+
+- **Predict Function Requirements**:
+  - Supply the function with new data and a threshold value.
+  - Classifications are based on the threshold: below the threshold is classified as 0, and above as 1.
+
+- **Demonstration with Dummy Data**:
+  - Create a dummy dataset for prediction demonstration.
+  - Use a threshold of 0.5 in the `predict` function.
+  - Example: `predictions = (neuron.predict(new_X) > 0.5).astype("int32")`.
+
+- **Comparing Predictions to Actual Classifications**:
+  - Create a DataFrame to compare model predictions with actual data point classifications.
+  - Visualize the comparison in a table format.
+
+- **Outcome of the Prediction Process**:
+  - The model successfully classified all 10 data points in the dummy dataset.
+  - Demonstrates the ability to create, train, and utilize a neural network for making accurate predictions.
+
+- **Next Steps**:
+  - Apply the learned skills in a practical activity involving neural network creation, training, and prediction.
+
 6.3.6: Activity: Predict Credit Card Defaults  
+- **Activity Overview: Building a Neural Network for Credit Default Prediction**:
+  - Use Keras to build a neural network model predicting credit card debt default.
+  - Apply knowledge from previous demonstrations to a dataset with 22 features and one target.
+
+- **Background of the Task**:
+  - Work on a project for a major credit card company.
+  - Objective: Predict which customers will default on credit card debt.
+  - Dataset: 30,000 records with 22 feature columns and one binary target column ("DEFAULT").
+
+- **Features and Target in the Dataset**:
+  - Features: Include demographic info, credit limit, past payment details, etc.
+  - Target ("DEFAULT"): 1 for defaulted card, 0 for non-defaulted.
+
+- **Instructions for the Activity**:
+  1. Read the dataset into a Pandas DataFrame.
+  2. Define features set `X` (excluding the "DEFAULT" column).
+  3. Create target `y` from the "DEFAULT" column.
+  4. Split data into training and testing sets using `train_test_split`.
+  5. Scale features using `StandardScaler`.
+  6. Create a neural network model with 22 inputs, one hidden layer (12 neurons), and an output layer (ReLU for hidden, sigmoid for output).
+  7. Use the `summary` function to display the model structure.
+  8. Compile the model with `binary_crossentropy`, `adam` optimizer, and `accuracy` metric.
+  9. Fit the model with training data for 100 epochs.
+  10. Plot loss function and accuracy over epochs.
+  11. Evaluate the model with test data.
+  12. Predict `y` values using the model and scaled X test data.
+  13. Create and display a DataFrame comparing predicted and actual `y` values.
+  14. Analyze model performance on test data and consider improvement strategies.
+
+- **Post-Activity Evaluation**:
+  - Review and compare the completed work with the solution in the Solved folder.
+  - Reflect on the differences in approach and any challenges faced.
+
 6.3.7: Recap and Knowledge Check  
+- **Overview of Neural Network Process**:
+  - Creating, compiling, and training a neural network is essential before using it for predictions.
+  - Building a neural network is akin to designing a house's blueprint.
+
+- **Key Components in Neural Network Training**:
+  - Creation: Establishing the structure and layers of the neural network.
+  - Compilation: Preparing the model for training.
+  - Training: Fitting the model to the data.
+
+- **Importance of Loss Function and Accuracy Metrics**:
+  - Essential for evaluating the performance of classification models.
+  - Indicators of how well the model is learning and predicting.
+
+- **Role of Optimization Function**:
+  - Shapes the neural network by adjusting input weights during each training epoch.
+
+- **Understanding Epochs in Training**:
+  - An epoch represents a complete pass of the entire training dataset through the model.
+  - The number of epochs directly impacts model performance.
+  - Training typically begins with 20 epochs, with adjustments based on loss and accuracy.
 
 ### Deep Learning
 6.4.1: What is Deep Learning?  
