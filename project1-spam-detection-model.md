@@ -1,11 +1,11 @@
 ## Background
-Let's say you work at an Internet Service Provider (ISP), and you've been tasked with improving the email filtering system for its customers. You've received a dataset containing information about emails, with two possible classifications: spam and not spam. The ISP wants you to take this dataset and develop a supervised machine learning model that will accurately detect spam emails, so it can filter them out of its customers' inboxes.
+Let's say you work at an Internet Service Provider (ISP), and you've been tasked with improving the email filtering system for its customers. You've received a dataset containing email information with two possible classifications: spam and not spam. The ISP wants you to take this dataset and develop a supervised machine learning model that will accurately detect spam emails, so it can filter them out of its customers' inboxes.
 
 ### What You're Creating
 You will create two classification models to fit the provided data and evaluate which model is more accurate at detecting spam. The models you'll create will be logistic regression and random forest models.
 
 ## Files
-Project 1 Starter Code
+[Project 1 Starter Code]()
 
 ## Instructions
 This challenge consists of the following subsections:
@@ -17,7 +17,7 @@ This challenge consists of the following subsections:
 - Evaluate the Models
 
 ### Split the Data into Training and Testing Sets
-Open the starter code notebook and then use it to complete the following steps.  
+You can just open the starter code notebook and then use it to complete the following steps.  
 1. Read the data from https://static.bc-edx.com/mbc/ai/m4/datasets/spam-data.csv into a Pandas DataFrame.
 2. Predict which model you expect to improve in the appropriate markdown cell.
 3. Create the labels set (`y`) from the “spam” column, and then create the features (`X`) DataFrame from the remaining columns.
@@ -59,7 +59,7 @@ To receive all points, your Jupyter notebook file must have all of the following
 - The labels set (`y`) is created from the “spam” column. (5 points)
 - The features DataFrame (`X`) is created from the remaining columns. (5 points)
 - The value_counts function is used to check the balance of the labels variable (`y`). (5 points)
-- The data is correctly split into training and testing datasets by using `train_test_split`. (10 points)
+- The data is correctly split into training and testing datasets using `train_test_split`. (10 points)
 
 ### Scale the Features (20 points)
 - An instance of `StandardScaler` is created. (5 points)
@@ -96,7 +96,7 @@ D (+/-)	60–69
 F (+/-)	< 60
 
 ## Submission
-Could you make sure to submit your work by the assignment due date? To do so, click Submit, then upload your project files. If you have any problems uploading your files, you may also provide a link to a folder within Google Drive, Dropbox, or a similar service. Set the sharing permissions so anyone with the link can view your files.
+Please submit your work by the assignment due date. To do so, click Submit, then upload your project files. If you have any problems uploading your files, you may also provide a link to a folder within Google Drive, Dropbox, or a similar service. Could you set the sharing permissions so anyone with the link can view your files?
 
 Comments are disabled for graded submissions in Bootcamp Spot. If you have questions about your feedback, please let your instructional staff or your Student Success Advisor know.
 
