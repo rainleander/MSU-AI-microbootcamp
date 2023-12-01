@@ -218,8 +218,8 @@
 ## Project 2: Predict Student Loan Repayment with Deep Learning
 [Project 2 Scope](project2-student-loans.md)  
 [Project 2 Starter Code](project2_starter_code/student_loans_with_deep_learning.ipynb)  
-[Project 2 Submission .ipynb format]()  
-[Project 2 Submission .py format]()
+[Project 2 Submission .ipynb format](rleander_student_loans_with_deep_learning.ipynb)  
+[Project 2 Submission .py format](rleander_student_loans_with_deep_learning.py)
 
 ## Module 7: Natural Language Processing
 [Module 7 Notes](module7-notes.md)
