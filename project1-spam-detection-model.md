@@ -5,7 +5,7 @@ Let's say you work at an Internet Service Provider (ISP), and you've been tasked
 You will create two classification models to fit the provided data and evaluate which model is more accurate at detecting spam. The models you'll create will be logistic regression and random forest models.
 
 ## Files
-[Project 1 Starter Code]()
+[Project 1 Starter Code](project1_starter_code/spam_detector.ipynb)
 
 ## Instructions
 This challenge consists of the following subsections:
