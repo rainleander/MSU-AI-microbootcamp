@@ -110,12 +110,135 @@ Xiang, C. 2023. Developers are connecting multiple AI agents to make more ‘aut
 
 ### AI Outside the Computer
 8.3.1: Introduction  
+Expanding Applications of AI Beyond Computers:
+- AI technologies moving beyond computers into real-world devices and robots.
+- Aim to solve problems, improve safety, overcome human limitations, and enhance convenience.
+
+Areas of Focus in AI Expansion:
+- Autonomous vehicles, robots, and devices interacting with humans and the environment.
+- Key AI models and research areas: computer vision, generative adversarial networks, and tinyML.
+
 8.3.2: Autonomous Vehicles  
+Autonomous Vehicles and AI:
+- Autonomous vehicles, or self-driving cars, are an AI implementation gaining public attention.
+- Potential applications beyond personal transportation in industries like public transport and shipping.
+- Self-driving vehicle development relies heavily on data processing for training and decision-making.
+
+Challenges in Self-Driving Vehicle Development:
+- Complex challenges include other vehicles, objects, adverse weather, and more.
+- Requires real-time perception and reaction to the environment.
+- Reliance on computer vision technology.
+
+Computer Vision in Self-Driving Vehicles:
+- Computer vision allows machines to "see" and analyze images.
+- Requires training on diverse data to recognize objects from different angles and perspectives.
+- Real-time data processing, pixel analysis, and labeling for decision-making.
+- Innovations in 3D modeling and image analysis improving the process.
+
+Development Progress and Challenges:
+- Progress in autonomous driving technology, but challenges remain.
+- Predictions for fully autonomous driving pushed further into the future.
+- Companies like Tesla, Mercedes, BMW, and Ford working on automated driving features.
+
 8.3.3: Robots  
+Applications of Computer Vision in Robotics:
+- Robotics is an advanced field that commonly uses AI technologies.
+- Advancements in AI fields like autonomous vehicles can be applied to robots.
+- Robots, like autonomous vehicles, rely on computer vision for interaction with the physical world.
+
+Role of Large Language Models:
+- Large language models assist robots in interpreting human language into instructions.
+- They help robots plan and execute tasks and provide verbal feedback.
+
+Google's PaLM-E Visual-Language Model:
+- In March 2023, Google demonstrated a robot with the PaLM-E visual-language model.
+- The robot successfully interpreted instructions to fetch snacks and clean a spill.
+
+Specialized Robotics Applications:
+- Japan has developed specialized robots for elder-care facilities.
+- These robots assist with physically demanding tasks, facilitate recreational activities, and provide companionship.
+- These projects show the potential of AI technologies in diverse applications.
+
 8.3.4: The Internet of Things  
+Internet of Things (IoT) Overview:
+- IoT involves a network of connected devices equipped with sensors, controllers, processors, and software for data collection and processing.
+- Connected devices exchange data and perform networked tasks.
+- Examples of IoT applications include smart fridges, home automation, and data gathering for companies.
+- IoT devices have been in use since the early to mid-2010s, and AI is now a standard design element in IoT devices.
+
+TinyML in IoT:
+- TinyML refers to machine learning applications on low-power devices, handling more minor data and algorithms.
+- Applications include voice recognition, predictive maintenance, and more.
+- It allows AI functionality on resource-constrained IoT devices.
+
+Generative Adversarial Networks (GANs) in IoT:
+- GANs refine computer vision in IoT devices.
+- GANs consist of generative and discriminator models in competition.
+- GANs use actual data from IoT devices to train models, improving functionality.
+- They are valuable for generating realistic failure data in contexts with data scarcity, aiding in predictive maintenance and failure prediction.
+
 8.3.5: Mobile Deployment  
+- AI is already in use in daily life, including smartphones.
+- AI powers features like autocomplete, camera improvements, and face recognition for security.
+- Machine learning in products allows for personalized user experiences.
+- Algorithms keep users engaged on social media platforms.
+- Mobile developers aim for seamless user experiences and task automation.
+- The growth of AI in mobile technology offers more personalization and data for algorithm improvement.
+- Increased customization can enhance security through sensitive verification systems.
+
 8.3.6: Problems and Possibilities  
+- AI automation raises questions of accountability.
+- Responsibility for AI decisions is unclear.
+- Self-driving cars pose challenges in determining responsibility for accidents.
+- Bias in AI decision-making due to biased data.
+- Debate on human oversight in AI decision-making.
+- Concerns about economic disruption due to job displacement by robots.
+- Potential for AI to create new opportunities and industries.
+- There is a need to reorganize work and society to address AI's impact.
+- Opportunities for AI in TinyML and assistive technologies.
+- Consider ethical implications and inclusion of people with disabilities in AI design.
+- The importance of thinking about emerging technologies' broader impacts and implications.
+
 8.3.7: References  
+Arun. 2020. An introduction to TinyML. Available: https://towardsdatascience.com/an-introduction-to-tinyml-4617f314aa79 [2023, April 26].
+
+awg. 2023. Auto-GPT: Open-sourced disaster? [LessWrong forum post, 26 April] Available: https://www.lesswrong.com/posts/s9JWqgnv7xT2mxmE7/auto-gpt-open-sourced-disaster [2023, May 2].
+
+Benanav, A. 2020. Automation and the future of work. New York: Verso Books. ISBN: 1839761296
+
+Bloomberg. 2022. Tesla makes automated driving available to all owners in N. America. Available: https://europe.autonews.com/automakers/tesla-makes-automated-driving-available-all-owners-n-america [2023, April 25].
+
+Collins, E. 2023. A comprehensive checklist for IoT project success. Forbes. Available: https://www.forbes.com/sites/forbesbusinesscouncil/2023/03/16/a-comprehensive-checklist-for-iot-project-success/ [2023, April 26].
+
+Clearbridge. n.d. ML & AI mobile apps: how to integrate the tech. Available: https://clearbridgemobile.com/ml-ai-mobile-apps/ [2023, May 2].
+
+De Freitas, J. 2023. Will we blame self-driving cars? Wall Street Journal. Available: https://www.wsj.com/articles/will-we-blame-self-driving-cars-11674745636 [2023, April 3].
+
+Doyle, N. 2022. Artificial intelligence is dangerous for disabled people at work: 4 takeaways for developers and buyers. Forbes. Available: https://www.forbes.com/sites/drnancydoyle/2022/10/11/artificial-intelligence-is-dangerous-for-disabled-people-at-work-4-takeaways-for-developers-and-buyers/ [2023, May 2].
+
+Edwards, B. 2023. Google’s PaLM-E is a generalist robot brain that takes commands. Available: https://arstechnica.com/information-technology/2023/03/embodied-ai-googles-palm-e-allows-robot-control-with-natural-commands/ [2023, April 26].
+
+Galloway, S. 2023. Luddites and AI. Available: https://medium.com/@profgalloway/luddites-and-ai-d4a491f2aa88 [2023, May 26].
+
+IBM. n.d. What is computer vision? Available: https://www.ibm.com/topics/computer-vision [2023, April 25].
+
+Jaokar, A. 2018. AI technologies used in Robotics. Available: https://www.datasciencecentral.com/ai-technologies-used-in-robotics/ [2023, April 26th].
+
+Knight, W. 2022. A new trick lets artificial intelligence see in 3D. Available: https://www.wired.com/story/new-way-ai-see-3d/ [2023, April 6].
+
+Martinez, C. 2021. Artificial intelligence and accessibility: examples of a technology that serves people with disabilities. Available: https://www.inclusivecitymaker.com/artificial-intelligence-accessibility-examples-technology-serves-people-disabilities/ [2023, May 2].
+
+Pazzanese, C. 2020. Ethical concerns mount as AI takes bigger decision-making role in more industries. Available: https://news.harvard.edu/gazette/story/2020/10/ethical-concerns-mount-as-ai-takes-bigger-decision-making-role/ [2023, May 2].
+
+Proulx, S. n.d. How AI needs to be redesigned for people With disabilities Available: https://makeitfable.com/article/ai-and-analytics-people-with-disabilities/ [2023, May 2].
+
+Smith, Z.S. 2022. Self-driving car users shouldn’t be held responsible for crashes, U.K. report says. Forbes. Available: https://www.forbes.com/sites/zacharysmith/2022/01/25/self-driving-car-users-shouldnt-be-held-responsible-for-crashes-uk-report-says/ [2023, May 2].
+
+Team ACV. 2022. Consumers are geeking out over these best self-driving cars of 2022. [Blog, 31 August]. Available: https://www.acvauctions.com/blog/best-self-driving-cars-2022 [2023, April 25].
+
+Thomson, J. 2022 Whose ethics should be programmed into the robots of tomorrow?. Available: https://bigthink.com/thinking/robots-ethical-decisions/ [2023, May 2].
+
+Wright, J, 2023. Inside Japan’s long experiment in automating elder care. Available: https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots/ [2023, April 26].
 
 ### Additional Areas of Active Research
 8.4.1: Introduction  
