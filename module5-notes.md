@@ -190,7 +190,7 @@
   - Higher scores indicate a better balance between sensitivity and precision.
 
 - **Deep Dive and Further Research**:
-  - Weighted F1 scores can be more informative in certain contexts.
+  - Weighted F1 scores can be more informative in specific contexts.
   - Encouraged to research weighted F1 scores for future projects.
 
 5.2.6: Classification Report  
@@ -218,7 +218,7 @@
 - **Pro Tip on Imbalanced Data**:
   - Imbalanced data can skew model predictions.
   - Example shows low sensitivity for positive predictions due to data imbalance.
-  - Upcoming lesson to explore imbalanced data in more detail.
+  - An upcoming lesson will explore imbalanced data in more detail.
 
 5.2.7: The Importance of Metric and Target Selection  
 - **Selecting Target and Metric in Machine Learning**:
@@ -249,7 +249,7 @@
   - Utilization of confusion matrices and understanding true/false positives and negatives.
   
 - **Different Success Metrics for Model Evaluation**:
-  - Accuracy: How many correct results a model returns.
+  - Accuracy: How many correct results does a model return?
   - Sensitivity (Recall): Measures correct identification of true cases.
   - Specificity: Focuses on correctly identifying false cases as negative.
   - Precision: Assesses avoidance of false positives.
@@ -264,9 +264,117 @@
 
 ### Case Study: Imbalanced Data
 5.3.1: Introduction to Imbalanced Data  
+- **Preparing Data Before Model Training**:
+  - Ensure sufficient, complete, and appropriate data for the problem domain.
+  - Classification reports help identify model weaknesses in predicting different classes.
+
+- **Imbalanced Data in Machine Learning**:
+  - Occurs when some classes are more or less frequent than others.
+  - Affects both binary and multi-class classification tasks.
+  - Can mislead the effectiveness of a model when judged by accuracy alone.
+
+- **Risk of Imbalanced Data**:
+  - Models may favor predicting the majority class, minimizing total incorrect classifications.
+  - Example: An unsophisticated model might show high accuracy in an imbalanced dataset by always predicting the majority class.
+
+- **Scenarios Illustrating Imbalance**:
+  - Fraudulent bank transactions are rare but crucial to identify.
+  - Cancer diagnosis: fewer patients have cancer, but failing to identify them is problematic.
+
+- **Addressing Imbalance in Data**:
+  - Techniques like over- and undersampling can help models predict the minority class more effectively.
+
 5.3.2: Oversampling and Undersampling  
+- **Techniques for Handling Imbalanced Training Data**:
+  - Generally categorized under oversampling and undersampling methods.
+
+- **Oversampling**:
+  - Involves creating more instances of the minority class to balance the dataset.
+  - Helps to match the minority class quantity with the majority class.
+
+- **Undersampling**:
+  - Reduces instances of the majority class to equalize class representation.
+  - Requires sufficient data in the majority class to remain effective after reduction.
+
+- **Approaches to Sampling**:
+  - Random Sampling: Chooses random instances from the existing dataset, used in oversampling and undersampling.
+  - Synthetic Sampling: Generates new instances based on observations from existing data, e.g., using K-nearest neighbors for simulation.
+
+- **Sampling Techniques Overview**:
+  - Random Oversampling: Directly replicates minority class instances.
+  - Synthetic Minority Oversampling Technique (SMOTE): Creates synthetic samples for the minority class.
+  - Random Undersampling: Removes instances from the majority class.
+  - Cluster Centroid: Reduces majority class by clustering and representing clusters with centroids.
+  - SMOTE and Edited Nearest Neighbors (SMOTEENN): Combines SMOTE with cleaning of majority and minority class using ENN.
+
+- **Imbalanced Classification Tree**:
+  - Outlines different sampling techniques: Random Oversampling, SMOTEENN, and Random Undersampling.
+  - Categorizes techniques by type for easier understanding and application.
+
 5.3.3: Applying Random Sampling Techniques  
+- **Random Under- and Oversampling Techniques**:
+  - Import modules like pandas, sklearn, and StandardScaler for data processing.
+  - Train random forest models on raw, undersampled, and oversampled data.
+  - Compare models trained on different datasets.
+
+- **Data Preparation and Analysis**:
+  - Load and preprocess data from a CSV file.
+  - Split data into features (X) and target (y), encode categorical variables.
+  - Notice the imbalanced dataset in the training set.
+  - Scale the data using StandardScaler.
+
+- **Training a Base Model for Comparison**:
+  - Train a RandomForestClassifier on the scaled training data.
+  - Make predictions on the testing set.
+
+- **Random Undersampling Method**:
+  - Reduce instances of the majority class using RandomUnderSampler.
+  - Fit a new RandomForestClassifier to the undersampled data.
+  - Compare classification reports for original and undersampled data.
+  - Notice increased recall for the minority class in the undersampled model.
+
+- **Random Oversampling Method**:
+  - Increase instances of the minority class using RandomOverSampler.
+  - Fit another RandomForestClassifier to the oversampled data.
+  - Compare classification reports for original, undersampled, and oversampled data.
+  - Observe changes in identifying minority class instances.
+
+- **Evaluating Sampling Techniques**:
+  - Undersampling increased minority class detection but reduced majority class performance.
+  - Oversampling maintained majority class results while improving minority class detection.
+  - Choice of technique depends on specific project needs and the balance of class detection.
+
 5.3.4: Synthetic Resampling  
+- **Exploration of Synthetic Resampling Methods**:
+  - Focuses on cluster centroids, SMOTE, and SMOTEENN.
+  
+- **Cluster Centroids Method**:
+  - Uses clustering algorithms to group similar data points.
+  - Synthetic sampling to create new points using KNN within clusters.
+  - Aimed to balance majority and minority classes.
+  - Involves generating points in majority class clusters and then undersampling.
+  - `ClusterCentroids` model in `imblearn.under_sampling` is used for this process.
+  - Implementation shows balanced class counts after resampling.
+
+- **SMOTE (Synthetic Minority Oversampling Technique)**:
+  - Generates synthetic data points for the minority class using KNN.
+  - Oversamples minority class to match the majority class size.
+  - Utilizes `SMOTE` from `imblearn.over_sampling`.
+  - The resulting dataset shows an equal count for both classes.
+  - Demonstrates an improvement in minority class results, though not always the best performance.
+
+- **SMOTEENN (Combination of SMOTE and ENN)**:
+  - Integrates SMOTE oversampling with undersampling by removing misclassified points using Edited Nearest Neighbors (ENN).
+  - `SMOTEENN` from `imblearn.combine` was used for this approach.
+  - Results in non-equal value counts due to ENN application.
+  - Shows significant improvement in recall of “yes” class without major sacrifices in other metrics.
+  - Highlights the variability of results depending on the dataset and resampling strategy.
+
+- **Comparing Resampling Techniques**:
+  - Cluster centroids dramatically improve recall but at the cost of precision and overall accuracy.
+  - SMOTEENN provides a balanced improvement in recall without heavily impacting other metrics.
+  - Emphasizes the need to try multiple methods for different datasets to find the most effective approach.
+
 5.3.5: Balanced Models  
 5.3.6: Activity: Improving Bank Marketing Campaigns with Synthetic Sampling  
 5.3.7: Recap and Knowledge Check  
