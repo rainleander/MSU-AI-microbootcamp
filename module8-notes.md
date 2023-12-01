@@ -242,9 +242,42 @@ Wright, J, 2023. Inside Japan’s long experiment in automating elder care. Avai
 
 ### Additional Areas of Active Research
 8.4.1: Introduction  
+- Active research areas in AI beyond transformers.
+- One-shot learning as a strategy for image recognition.
+- 3D environments created using AI for various applications.
+- Research on improving algorithm speed and computational resources.
+- Ethical and regulatory considerations in AI implementation.
+
 8.4.2: One-Shot Learning  
+- Understanding the challenge of training a model to identify novel images it has never seen before.
+- Introduction to one-shot learning as a solution for comparing two novel images.
+- One-shot learning involves using a Siamese neural network (SNN) to measure feature similarity between images.
+- Training the SNN with a triplet loss function that includes an anchor, positive, and negative image.
+- One-shot learning applications include facial recognition, signature authentication, computer vision, and neural activity identification.
+- Mention zero-shot and few-shot learning techniques for situations with limited or no labeled data.
+- Advantages and limitations of one-shot learning compared to traditional machine learning algorithms.
+
 8.4.3: Creating 3D Environments  
+- Traditional 3D environment creation is a manual and time-consuming process.
+- Importance of accurately simulated 3D environments for entertainment and training purposes.
+- Introduction of Neuro Radiance Field (NeRF) by Nvidia as an innovation in 3D modeling.
+- NeRF's ability to predict and generate complex 3D environments from a few images.
+- The neural network in NeRF processes images to create 3D points, predict light passage, and populate virtual spaces.
+- Ongoing improvements and variations of NeRF, including RegNeRF, pixelNeRF, Mega-NeRF, and LOLNeRF.
+- Applications of NeRF in video game development for more immersive experiences and in training self-driving vehicles and robots.
+- Ethical considerations of using NeRF to create realistic 3D training environments without endangering human lives.
+
 8.4.4: Algorithm Speed and Computational Resource Management  
+- AI systems are computationally resource-intensive, requiring significant processing power.
+- Cloud-computing data centers consume substantial energy, equivalent to small industrialized nations.
+- Environmental impact due to power consumption, primarily when relying on fossil fuels.
+- Example of BLOOM model emitting a large amount of carbon.
+- Improving AI algorithms for faster performance and more efficient use of power.
+- AI's potential to provide solutions to power consumption and emissions problems.
+- Use of AI reinforcement learning to optimize chip design and reduce energy consumption.
+- Introduction of reinforcement learning models like BCOOLER to optimize energy usage.
+- Uncertainty about whether AI optimizations will entirely offset data center costs and reduce emissions, requiring further research and testing.
+
 8.4.5: Ethics and Regulations  
 8.4.6: Problems and Possibilities  
 8.4.7: References  
