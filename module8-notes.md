@@ -274,13 +274,87 @@ Wright, J, 2023. Inside Japan’s long experiment in automating elder care. Avai
 - Example of BLOOM model emitting a large amount of carbon.
 - Improving AI algorithms for faster performance and more efficient use of power.
 - AI's potential to provide solutions to power consumption and emissions problems.
-- Use of AI reinforcement learning to optimize chip design and reduce energy consumption.
+- Use AI reinforcement learning to optimize chip design and reduce energy consumption.
 - Introduction of reinforcement learning models like BCOOLER to optimize energy usage.
 - Uncertainty about whether AI optimizations will entirely offset data center costs and reduce emissions, requiring further research and testing.
 
 8.4.5: Ethics and Regulations  
+**AI Ethics Issues:**
+- AI systems can potentially harm people before issues are detected; some issues may never be detected.
+- AI ethics intersects philosophy, technology, and ethics.
+- Researchers analyze and audit AI systems to identify harmful impacts and propose technical solutions.
+- Ethics research takes place in academic research institutions and tech companies.
+
+**AI Ethics in Academic Institutions:**
+- Academic institutions involved in AI ethics research include Harvard University's Berkman Klein Center, the University of Oxford's Centre for the Governance of AI, the Data & Society Research Institute, the Alan Turing Institute, the Ada Lovelace Institute, and the Centre for Human-Compatible Artificial Intelligence.
+- Difficulty accessing technical details of commercial AI products limits researchers' ability to audit and propose solutions.
+
+**AI Ethics in Tech Companies:**
+- Some tech companies, including Accenture Labs, IBM, Google, Samsung, and Sony, have committed to ethical AI principles.
+- Corporate research into AI ethics may affect technical research progress and profits.
+
+**Government Regulations:**
+- Governments recognize the need to regulate AI to prevent harm.
+- Regulations should be based on AI ethics research.
+- Limited AI regulations exist globally, with the EU's GDPR being an example.
+- Ongoing research and collaboration are essential for proactive AI regulation aligned with ethical principles.
+
 8.4.6: Problems and Possibilities  
+**AI's Potential and Concerns:**
+- AI can bring efficiency and solve resource issues.
+- Concerns include contributions to climate change due to computational resource demands.
+- Many data centers are located in developing nations, posing challenges.
+
+**Positive Developments:**
+- Companies are motivated to reduce overhead and develop resource-efficient technologies.
+- Accountability and ethical incentives can drive positive social impacts.
+
+**Ultimate Goal of AI Research:**
+- The ultimate goal is artificial general intelligence (AGI).
+- AGI development may take years, but various forms of AI are already part of daily life.
+
+**Rapidly Evolving AI:**
+- AI is evolving rapidly with opportunities and challenges.
+- The choices made in AI development and implementation have broad consequences.
+
+**Ethical Responsibility:**
+- Approaching AI development and implementation with ethical responsibility is crucial.
+- The potential for progress and innovation is vast, but risks and implications are significant.
+
 8.4.7: References  
+aiethicist.org. n.d. AI organizations. Available: https://www.aiethicist.org/ai-organizations [2023, May 2].
+
+Allyn, B. 2020. Ousted Black Google researcher: 'they wanted to have my presence, but not me exactly'. Available: https://www.npr.org/2020/12/17/947719354/ousted-black-google-researcher-they-wanted-to-have-my-presence-but-not-me-exactl [2023, May 2].
+
+Datagen. n.d. Neural Radiance Field (NeRF): A Gentle Introduction. Available: https://datagen.tech/guides/synthetic-data/neural-radiance-field-nerf/ [2023, May 2].
+
+De Laat, P.B. 2021. *Companies committed to responsible AI: from principles towards implementation and regulation? Philosophy and Technology. 34. pp. 1135-1193.
+
+Dickson, B. 2020. What is one-shot learning?. Available: https://bdtechtalks.com/2020/08/12/what-is-one-shot-learning/ [2023, May 2].
+
+Gillam, W. 2021. Accelerating AI computing to the speed of light. Available: https://www.ece.uw.edu/spotlight/ai-computing/ [2023, May 2].
+
+Jones, E. & Easterday, B. 2022. Artificial intelligence’s environmental costs and promise. Available: https://www.cfr.org/blog/artificial-intelligences-environmental-costs-and-promise [2023, May 2].
+
+Knight, W. 2022. A new trick lets artificial intelligence see in 3D. Available: https://www.wired.com/story/new-way-ai-see-3d/ [2023, April 6].
+
+Logunova, I. 2022. A guide to one-shot learning. Available: https://serokell.io/blog/nn-and-one-shot-learning [2023, May 2].
+
+Luccioni, A.S., Viguier, S., & Ligozat, A.L. 2022. Estimating the carbon footprint of BLOOM, a 176B parameter language model. 10.48550/arXiv.2211.02001.
+
+Martinovs, D. 2019. 10 organizations leading the way in ethical AI. [Blog, 22 August]. Available: https://ocean.sagepub.com/blog/10-organizations-leading-the-way-in-ethical-ai [2023, May 2].
+
+Maslej, N. 2023. 2023 AI index: a year of technical achievement, newfound public scrutiny. Available: https://hai.stanford.edu/news/2023-ai-index-year-technical-achievement-newfound-public-scrutiny [2023, May 2].
+
+Rahtz, M., Varma, V., Kumar, R., Kenton, Z., Legg, S., and Leike, J. 2022. Avoiding unsafe states in 3D environments using human feedback. Available: https://deepmindsafetyresearch.medium.com/avoiding-unsafe-states-in-3d-environments-using-human-feedback-5869ed9fb94c [2023, May 2].
+
+Rouse, M. 2023. Zero-shot, one-shot, few-shot learning. Available: https://www.techopedia.com/definition/34949/zero-shot-one-shot-few-shot-learning [2023, May 2].
+
+Salian, I. 2022. NVIDIA research turns 2D photos into 3D scenes in the blink of an AI. [Blog, 25 March]. Available: https://blogs.nvidia.com/blog/2022/03/25/instant-nerf-research-3d-ai/ [2023, May 2].
+
+Spyridaki, K. n.d. GDPR and AI: friends, foes or something in between? Available: https://www.sas.com/en_us/insights/articles/data-management/gdpr-and-ai--friends--foes-or-something-in-between-.html [2023, May 2].
+
+Vincent, J. 2023. AI is entering an era of corporate control Available: https://www.theverge.com/23667752/ai-progress-2023-report-stanford-corporate-control [2023, May 2].
 
 ### Course Wrap-Up
 8.5.1: Congratulations!  
