@@ -358,3 +358,16 @@ Vincent, J. 2023. AI is entering an era of corporate control Available: https://
 
 ### Course Wrap-Up
 8.5.1: Congratulations!  
+- Congratulations on completing the course!
+- Reflect on the accomplishments in your educational and professional journey.
+- Key learnings from the course:
+  - Understanding AI and its impact on our lives.
+  - Applying machine learning techniques.
+  - Using unsupervised and supervised machine learning.
+  - Evaluating and optimizing machine learning models.
+  - Neural networks and deep learning.
+  - NLP and transformers for text-related tasks.
+  - Recent innovations in AI.
+  - Future applications of AI.
+- Please consider applying your knowledge in your current or future career.
+- Encouragement to continue learning in AI.
