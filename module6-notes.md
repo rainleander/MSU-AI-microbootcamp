@@ -34,7 +34,7 @@
 6.1.2: Your Neural Network and Deep Learning Background  
 - **Reflecting on Previous Exposure to Neural Networks and Deep Learning**:
   - Consider personal experience with technology featuring neural network or deep learning capabilities in everyday life.
-  - Reflect on whether workplace decisions are influenced by neural networks or deep learning algorithms.
+  - Reflect on whether neural networks or deep learning algorithms influence workplace decisions.
   - Identify what is perceived as the most disruptive application of deep learning or neural networks.
   - Assess current opinions and interest levels in neural networks and deep learning.
 
@@ -69,9 +69,84 @@
 
 ### Artificial Neural Networks
 6.2.1: What is a Neural Network?  
+- **Understanding Artificial Neural Networks (ANNs)**:
+  - Inspired by neurons in the human brain.
+  - Consists of layers of artificial neurons performing computations and communicating results.
+
+- **Advantages of Neural Networks**:
+  - Excel in processing large, complex datasets.
+  - Capable of detecting complex relationships in data.
+  - It is better to handle large, noisy datasets by learning to ignore noise.
+
+- **Disadvantages of Neural Networks**:
+  - Complexity results in a 'black box' problem, opaque the process from input to output.
+  - Prone to overfitting, which limits their ability to generalize data trends beyond training data.
+
+- **Examples of Neural Network Applications**:
+  - Voice-activated assistants (Siri, Cortana, Google Assistant) for speech recognition.
+  - OpenAI's ChatGPT for conversational response generation in NLP.
+  - Self-driving cars and facial recognition using computer vision systems.
+  - Recommendation engines (Netflix, YouTube) using deep neural networks for personalized content recommendations.
+
+- **Google's Contributions to Neural Networks**:
+  - Google has developed tools to make neural networks more accessible.
+  - TensorFlow, created by Google Brain, is an open-source machine learning platform.
+  - Encouragement to explore neural networks through interactive applications and games on Experiments with Google.
+
+- **Next Steps in Learning**:
+  - Move towards a deeper understanding of how neural networks are built and function.
+
 6.2.2: Making an Artificial Brain  
+- **Perceptron Inspired by Neurons in the Brain**:
+  - Neural networks consist of layers of neurons.
+  - Each neuron in a neural network is akin to a perceptron, inspired by brain neurons.
+
+- **Perceptron as a Computational Equivalent of Neurons**:
+  - Perceptrons make classification decisions based on input, similar to brain neurons.
+  - Acts as a binary classifier, categorizing input data into two parts (1 or 0).
+
+- **Working of a Perceptron**:
+  - Receives inputs (xn) as numeric values representing characteristics (e.g., 1 for presence, 0 for absence of a trait).
+  - Each input is multiplied by a weight (wn), a process known as weighting.
+  - Weighting is akin to assigning importance or value to each characteristic.
+  - Weighted values are summed, including a bias value (w0).
+  - An activation function determines the final output, setting a threshold for decision-making.
+  - If the weighted sum exceeds the threshold, the output is 1 ("Yes"); otherwise, it's 0 ("No").
+
+- **Role of Perceptron in Neural Networks**:
+  - Perceptrons are foundational units in neural networks.
+  - They integrate input signals, weights, bias, and an activation function to produce binary output.
+
 6.2.3: The Structure of a Neural Network  
+- **Composition of Neural Networks**:
+  - Neural networks consist of three interconnected layers: input, hidden, and output.
+  - Input layer: Receives and transforms input values through weighting.
+  - Hidden layer(s): Can contain one or more perceptrons.
+  - Output layer: Reports the outcome of the neural network.
+
+- **Role of Activation Functions**:
+  - Activation functions are critical in producing a clear output from complex inputs.
+  - Applied at the end of each perceptron in the hidden and output layers (not in the input layer).
+  - Transforms perceptron output into a quantitative value, used as input for the next perceptron.
+  - In neural network design, various activation function combinations are tested for optimal performance.
+
+- **Further Exploration of Activation Functions**:
+  - Detailed study of activation functions will be covered later in the module.
+  - Encouragement to explore formulas and mathematical fundamentals of activation functions from external resources like Wikipedia and ML Glossary.
+
 6.2.4: Recap and Knowledge Check  
+- **Introduction to Neural Networks**:
+  - Artificial neural networks simulate the functioning of the human brain.
+  - Capable of processing large, complex, and noisy datasets.
+
+- **Perceptron: Basic Unit of Neural Networks**:
+  - Perceptron acts as a binary classifier in a neural network.
+  - Receives inputs, assigns weights, and calculates a weighted sum.
+  - Applies an activation function to produce output.
+
+- **Structure of Neural Networks**:
+  - Composed of multiple perceptrons forming various layers.
+  - A neural network includes three distinct layers: input, hidden, and output.
 
 ### Make Predictions with a Neural Network Model
 6.3.1: Create a Neural Network  
