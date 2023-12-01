@@ -150,7 +150,59 @@
 
 ### Make Predictions with a Neural Network Model
 6.3.1: Create a Neural Network  
+- **Introduction to Creating Neural Networks with Keras**:
+  - Learn to use the Keras library for building neural networks.
+
+- **Approaches to Coding Neural Networks**:
+  1. Code from scratch using Python, Pandas, and NumPy.
+  2. Use an API or framework for efficiency, focusing on model improvement.
+
+- **Using TensorFlow and Keras**:
+  - TensorFlow: Open-source platform for efficient machine learning.
+  - Keras: Abstraction layer over TensorFlow for easier model building.
+  - Follow the standard model -> fit -> predict interface.
+
+- **Prerequisites**:
+  - TensorFlow installation is required for this module.
+
+- **Demonstration of Neural Network Creation**:
+  - Import necessary modules, including Pandas, TensorFlow, and Keras.
+  - Use the `Sequential` model and the `Dense` class in Keras.
+
+- **Steps to Create a Neural Network**:
+  1. Create a dummy dataset using `make_blobs` from sklearn.
+  2. Preprocess data: Transform target variable `y` into a vertical vector.
+  3. Create a DataFrame for visualization and plot the dummy data.
+  4. Split the data into training and testing sets using `train_test_split`.
+  5. Normalize the data using `StandardScaler` from scikit-learn for better neural network performance.
+  6. Scale the feature data but not the target data.
+
 6.3.2: Creating a Neural Network Model Using Keras  
+- **Creating a Neural Network with Keras**:
+  1. **Create the Model Structure**:
+     - Initialize a Sequential model and store it in a variable named `neuron`.
+
+  2. **Input and Hidden Layers**:
+     - Define the number of inputs and hidden nodes.
+     - Add input and hidden layers using the `add` function and `Dense` module.
+     - Parameters for the `Dense` module:
+       - `input_dim`: Number of inputs the neuron receives, set to `number_inputs` (2).
+       - `units`: Number of neurons in the hidden layer, set to `number_hidden_nodes` (1).
+       - `activation`: Type of activation function, `relu` (rectified linear unit), used for non-linearity in the first layer.
+
+  3. **Output Layer**:
+     - Add output layer using the `Dense` module with two parameters: `units` and `activation`.
+     - `units`: Number of output neurons (1 for binary classification).
+     - `activation`: `sigmoid` function to transform the output to a probability range between 0 and 1.
+     - The model classifies data points as Class 1 or 0 based on a default threshold of 0.5.
+
+- **Understanding the Model**:
+  - Use the `summary` function to check the model structure.
+  - Summary includes:
+    - The first row shows the input and hidden layer.
+    - Second row detailing the output layer.
+    - Total of five parameters in the model.
+
 6.3.3: Compile a Neural Network  
 6.3.4: Train a Neural Network  
 6.3.5: Make Predictions with a Neural Network  
